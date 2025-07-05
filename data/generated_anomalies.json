@@ -1,0 +1,2984 @@
+[
+    {
+        "timestamp": "2025-07-05T01:12:54+00:00",
+        "station_id": 24,
+        "sensor": "pressure",
+        "value": 963.44
+    },
+    {
+        "timestamp": "2025-07-05T04:57:59+00:00",
+        "station_id": 18,
+        "sensor": "humidity",
+        "value": -11.31
+    },
+    {
+        "timestamp": "2025-07-05T02:40:48+00:00",
+        "station_id": 3,
+        "sensor": "humidity",
+        "value": 105.92
+    },
+    {
+        "timestamp": "2025-07-05T05:40:46+00:00",
+        "station_id": 17,
+        "sensor": "temperature",
+        "value": -14.77
+    },
+    {
+        "timestamp": "2025-07-05T09:18:16+00:00",
+        "station_id": 24,
+        "sensor": "humidity",
+        "value": 107.96
+    },
+    {
+        "timestamp": "2025-07-05T11:31:31+00:00",
+        "station_id": 11,
+        "sensor": "pressure",
+        "value": 1046.67
+    },
+    {
+        "timestamp": "2025-07-04T17:07:50+00:00",
+        "station_id": 7,
+        "sensor": "temperature",
+        "value": 48.78
+    },
+    {
+        "timestamp": "2025-07-05T14:38:40+00:00",
+        "station_id": 15,
+        "sensor": "pressure",
+        "value": 1050.5
+    },
+    {
+        "timestamp": "2025-07-05T09:11:58+00:00",
+        "station_id": 7,
+        "sensor": "pressure",
+        "value": 1061.66
+    },
+    {
+        "timestamp": "2025-07-04T20:43:49+00:00",
+        "station_id": 4,
+        "sensor": "temperature",
+        "value": -32.4
+    },
+    {
+        "timestamp": "2025-07-05T00:04:45+00:00",
+        "station_id": 8,
+        "sensor": "pressure",
+        "value": 1056.98
+    },
+    {
+        "timestamp": "2025-07-05T01:18:07+00:00",
+        "station_id": 19,
+        "sensor": "temperature",
+        "value": 54.12
+    },
+    {
+        "timestamp": "2025-07-04T23:45:35+00:00",
+        "station_id": 8,
+        "sensor": "pressure",
+        "value": 972.37
+    },
+    {
+        "timestamp": "2025-07-05T00:40:42+00:00",
+        "station_id": 21,
+        "sensor": "temperature",
+        "value": -46.59
+    },
+    {
+        "timestamp": "2025-07-04T17:54:46+00:00",
+        "station_id": 2,
+        "sensor": "humidity",
+        "value": 118.19
+    },
+    {
+        "timestamp": "2025-07-04T18:05:22+00:00",
+        "station_id": 8,
+        "sensor": "humidity",
+        "value": 114.22
+    },
+    {
+        "timestamp": "2025-07-04T21:46:48+00:00",
+        "station_id": 3,
+        "sensor": "humidity",
+        "value": -17.63
+    },
+    {
+        "timestamp": "2025-07-04T19:09:55+00:00",
+        "station_id": 1,
+        "sensor": "pressure",
+        "value": 1043.33
+    },
+    {
+        "timestamp": "2025-07-05T12:40:04+00:00",
+        "station_id": 13,
+        "sensor": "pressure",
+        "value": 1043.6
+    },
+    {
+        "timestamp": "2025-07-04T20:30:40+00:00",
+        "station_id": 18,
+        "sensor": "pressure",
+        "value": 978.62
+    },
+    {
+        "timestamp": "2025-07-05T09:12:43+00:00",
+        "station_id": 19,
+        "sensor": "pressure",
+        "value": 978.36
+    },
+    {
+        "timestamp": "2025-07-05T14:26:49+00:00",
+        "station_id": 2,
+        "sensor": "humidity",
+        "value": 115.67
+    },
+    {
+        "timestamp": "2025-07-05T07:52:57+00:00",
+        "station_id": 11,
+        "sensor": "temperature",
+        "value": -46.96
+    },
+    {
+        "timestamp": "2025-07-05T11:43:34+00:00",
+        "station_id": 18,
+        "sensor": "humidity",
+        "value": -5.55
+    },
+    {
+        "timestamp": "2025-07-05T12:17:43+00:00",
+        "station_id": 12,
+        "sensor": "humidity",
+        "value": -6.48
+    },
+    {
+        "timestamp": "2025-07-05T00:24:59+00:00",
+        "station_id": 14,
+        "sensor": "temperature",
+        "value": -26.88
+    },
+    {
+        "timestamp": "2025-07-04T16:52:35+00:00",
+        "station_id": 9,
+        "sensor": "temperature",
+        "value": -49.67
+    },
+    {
+        "timestamp": "2025-07-04T22:05:28+00:00",
+        "station_id": 21,
+        "sensor": "pressure",
+        "value": 1038.76
+    },
+    {
+        "timestamp": "2025-07-05T11:46:22+00:00",
+        "station_id": 8,
+        "sensor": "temperature",
+        "value": 58.5
+    },
+    {
+        "timestamp": "2025-07-05T06:37:14+00:00",
+        "station_id": 8,
+        "sensor": "humidity",
+        "value": 105.16
+    },
+    {
+        "timestamp": "2025-07-04T20:53:52+00:00",
+        "station_id": 12,
+        "sensor": "humidity",
+        "value": -16.37
+    },
+    {
+        "timestamp": "2025-07-05T06:23:55+00:00",
+        "station_id": 2,
+        "sensor": "humidity",
+        "value": -14.81
+    },
+    {
+        "timestamp": "2025-07-04T23:42:15+00:00",
+        "station_id": 2,
+        "sensor": "humidity",
+        "value": -9.1
+    },
+    {
+        "timestamp": "2025-07-04T20:44:31+00:00",
+        "station_id": 12,
+        "sensor": "humidity",
+        "value": 108.17
+    },
+    {
+        "timestamp": "2025-07-04T20:15:42+00:00",
+        "station_id": 20,
+        "sensor": "humidity",
+        "value": -17.23
+    },
+    {
+        "timestamp": "2025-07-04T20:01:43+00:00",
+        "station_id": 23,
+        "sensor": "temperature",
+        "value": -40.12
+    },
+    {
+        "timestamp": "2025-07-05T01:28:04+00:00",
+        "station_id": 17,
+        "sensor": "humidity",
+        "value": 115.27
+    },
+    {
+        "timestamp": "2025-07-05T15:32:05+00:00",
+        "station_id": 10,
+        "sensor": "humidity",
+        "value": -11.99
+    },
+    {
+        "timestamp": "2025-07-04T22:31:24+00:00",
+        "station_id": 11,
+        "sensor": "pressure",
+        "value": 978.2
+    },
+    {
+        "timestamp": "2025-07-05T05:31:51+00:00",
+        "station_id": 7,
+        "sensor": "temperature",
+        "value": -32.62
+    },
+    {
+        "timestamp": "2025-07-05T03:48:53+00:00",
+        "station_id": 9,
+        "sensor": "humidity",
+        "value": -15.48
+    },
+    {
+        "timestamp": "2025-07-05T04:10:20+00:00",
+        "station_id": 15,
+        "sensor": "pressure",
+        "value": 972.57
+    },
+    {
+        "timestamp": "2025-07-05T00:46:07+00:00",
+        "station_id": 10,
+        "sensor": "humidity",
+        "value": -16.58
+    },
+    {
+        "timestamp": "2025-07-05T08:57:17+00:00",
+        "station_id": 8,
+        "sensor": "temperature",
+        "value": -21.71
+    },
+    {
+        "timestamp": "2025-07-05T01:54:03+00:00",
+        "station_id": 7,
+        "sensor": "temperature",
+        "value": -32.16
+    },
+    {
+        "timestamp": "2025-07-04T22:43:10+00:00",
+        "station_id": 11,
+        "sensor": "pressure",
+        "value": 960.31
+    },
+    {
+        "timestamp": "2025-07-04T21:45:27+00:00",
+        "station_id": 13,
+        "sensor": "pressure",
+        "value": 971.03
+    },
+    {
+        "timestamp": "2025-07-05T02:39:02+00:00",
+        "station_id": 6,
+        "sensor": "temperature",
+        "value": -17.97
+    },
+    {
+        "timestamp": "2025-07-05T10:47:10+00:00",
+        "station_id": 2,
+        "sensor": "humidity",
+        "value": 107.09
+    },
+    {
+        "timestamp": "2025-07-05T05:10:05+00:00",
+        "station_id": 8,
+        "sensor": "pressure",
+        "value": 1051.95
+    },
+    {
+        "timestamp": "2025-07-05T06:44:30+00:00",
+        "station_id": 5,
+        "sensor": "temperature",
+        "value": 46.47
+    },
+    {
+        "timestamp": "2025-07-05T00:53:26+00:00",
+        "station_id": 4,
+        "sensor": "pressure",
+        "value": 962.08
+    },
+    {
+        "timestamp": "2025-07-04T18:49:16+00:00",
+        "station_id": 9,
+        "sensor": "humidity",
+        "value": 117.56
+    },
+    {
+        "timestamp": "2025-07-05T13:54:39+00:00",
+        "station_id": 23,
+        "sensor": "temperature",
+        "value": -42.18
+    },
+    {
+        "timestamp": "2025-07-05T15:03:12+00:00",
+        "station_id": 23,
+        "sensor": "temperature",
+        "value": 50.42
+    },
+    {
+        "timestamp": "2025-07-04T19:43:25+00:00",
+        "station_id": 17,
+        "sensor": "pressure",
+        "value": 967.06
+    },
+    {
+        "timestamp": "2025-07-05T00:36:18+00:00",
+        "station_id": 21,
+        "sensor": "pressure",
+        "value": 1038.29
+    },
+    {
+        "timestamp": "2025-07-05T04:44:45+00:00",
+        "station_id": 4,
+        "sensor": "pressure",
+        "value": 1042.07
+    },
+    {
+        "timestamp": "2025-07-05T06:38:27+00:00",
+        "station_id": 25,
+        "sensor": "pressure",
+        "value": 957.02
+    },
+    {
+        "timestamp": "2025-07-05T12:17:10+00:00",
+        "station_id": 23,
+        "sensor": "pressure",
+        "value": 967.64
+    },
+    {
+        "timestamp": "2025-07-04T19:51:42+00:00",
+        "station_id": 7,
+        "sensor": "pressure",
+        "value": 1047.8
+    },
+    {
+        "timestamp": "2025-07-05T09:05:38+00:00",
+        "station_id": 11,
+        "sensor": "pressure",
+        "value": 967.59
+    },
+    {
+        "timestamp": "2025-07-04T20:15:01+00:00",
+        "station_id": 13,
+        "sensor": "temperature",
+        "value": -17.69
+    },
+    {
+        "timestamp": "2025-07-05T04:48:22+00:00",
+        "station_id": 16,
+        "sensor": "temperature",
+        "value": -14.78
+    },
+    {
+        "timestamp": "2025-07-04T22:58:54+00:00",
+        "station_id": 25,
+        "sensor": "pressure",
+        "value": 1054.21
+    },
+    {
+        "timestamp": "2025-07-04T23:19:59+00:00",
+        "station_id": 8,
+        "sensor": "temperature",
+        "value": -19.06
+    },
+    {
+        "timestamp": "2025-07-04T22:57:14+00:00",
+        "station_id": 1,
+        "sensor": "humidity",
+        "value": -7.95
+    },
+    {
+        "timestamp": "2025-07-05T02:45:17+00:00",
+        "station_id": 8,
+        "sensor": "temperature",
+        "value": 55.17
+    },
+    {
+        "timestamp": "2025-07-04T20:18:16+00:00",
+        "station_id": 16,
+        "sensor": "humidity",
+        "value": 113.17
+    },
+    {
+        "timestamp": "2025-07-05T06:44:11+00:00",
+        "station_id": 13,
+        "sensor": "humidity",
+        "value": 105.42
+    },
+    {
+        "timestamp": "2025-07-05T11:47:08+00:00",
+        "station_id": 21,
+        "sensor": "humidity",
+        "value": -6.43
+    },
+    {
+        "timestamp": "2025-07-04T20:02:46+00:00",
+        "station_id": 3,
+        "sensor": "temperature",
+        "value": 53.54
+    },
+    {
+        "timestamp": "2025-07-05T14:33:40+00:00",
+        "station_id": 24,
+        "sensor": "temperature",
+        "value": -27.52
+    },
+    {
+        "timestamp": "2025-07-04T18:03:12+00:00",
+        "station_id": 5,
+        "sensor": "humidity",
+        "value": -11.04
+    },
+    {
+        "timestamp": "2025-07-05T01:41:04+00:00",
+        "station_id": 15,
+        "sensor": "pressure",
+        "value": 1053.46
+    },
+    {
+        "timestamp": "2025-07-05T09:33:37+00:00",
+        "station_id": 9,
+        "sensor": "humidity",
+        "value": 105.2
+    },
+    {
+        "timestamp": "2025-07-05T10:04:27+00:00",
+        "station_id": 21,
+        "sensor": "humidity",
+        "value": -18.2
+    },
+    {
+        "timestamp": "2025-07-05T08:22:47+00:00",
+        "station_id": 11,
+        "sensor": "humidity",
+        "value": 112.51
+    },
+    {
+        "timestamp": "2025-07-04T20:24:59+00:00",
+        "station_id": 15,
+        "sensor": "humidity",
+        "value": -9.85
+    },
+    {
+        "timestamp": "2025-07-05T09:18:29+00:00",
+        "station_id": 15,
+        "sensor": "pressure",
+        "value": 977.9
+    },
+    {
+        "timestamp": "2025-07-04T21:34:11+00:00",
+        "station_id": 1,
+        "sensor": "humidity",
+        "value": -13.23
+    },
+    {
+        "timestamp": "2025-07-05T01:41:18+00:00",
+        "station_id": 7,
+        "sensor": "pressure",
+        "value": 976.27
+    },
+    {
+        "timestamp": "2025-07-05T08:59:27+00:00",
+        "station_id": 15,
+        "sensor": "temperature",
+        "value": 49.04
+    },
+    {
+        "timestamp": "2025-07-05T00:47:41+00:00",
+        "station_id": 21,
+        "sensor": "humidity",
+        "value": 110.42
+    },
+    {
+        "timestamp": "2025-07-05T08:58:36+00:00",
+        "station_id": 8,
+        "sensor": "pressure",
+        "value": 980.33
+    },
+    {
+        "timestamp": "2025-07-04T23:34:03+00:00",
+        "station_id": 20,
+        "sensor": "temperature",
+        "value": -24.91
+    },
+    {
+        "timestamp": "2025-07-04T21:55:59+00:00",
+        "station_id": 11,
+        "sensor": "humidity",
+        "value": 107.9
+    },
+    {
+        "timestamp": "2025-07-05T05:36:11+00:00",
+        "station_id": 22,
+        "sensor": "humidity",
+        "value": 105.42
+    },
+    {
+        "timestamp": "2025-07-05T06:50:18+00:00",
+        "station_id": 14,
+        "sensor": "temperature",
+        "value": 51.72
+    },
+    {
+        "timestamp": "2025-07-04T19:27:28+00:00",
+        "station_id": 25,
+        "sensor": "pressure",
+        "value": 1045.32
+    },
+    {
+        "timestamp": "2025-07-05T02:46:30+00:00",
+        "station_id": 7,
+        "sensor": "humidity",
+        "value": -12.51
+    },
+    {
+        "timestamp": "2025-07-04T20:14:57+00:00",
+        "station_id": 3,
+        "sensor": "pressure",
+        "value": 1049.79
+    },
+    {
+        "timestamp": "2025-07-04T17:45:02+00:00",
+        "station_id": 7,
+        "sensor": "temperature",
+        "value": 55.22
+    },
+    {
+        "timestamp": "2025-07-05T02:26:11+00:00",
+        "station_id": 10,
+        "sensor": "humidity",
+        "value": 107.78
+    },
+    {
+        "timestamp": "2025-07-05T07:13:25+00:00",
+        "station_id": 9,
+        "sensor": "pressure",
+        "value": 965.01
+    },
+    {
+        "timestamp": "2025-07-04T16:39:47+00:00",
+        "station_id": 5,
+        "sensor": "temperature",
+        "value": -26.64
+    },
+    {
+        "timestamp": "2025-07-05T05:36:25+00:00",
+        "station_id": 17,
+        "sensor": "pressure",
+        "value": 1045.24
+    },
+    {
+        "timestamp": "2025-07-04T20:33:38+00:00",
+        "station_id": 16,
+        "sensor": "temperature",
+        "value": 56.55
+    },
+    {
+        "timestamp": "2025-07-05T01:25:40+00:00",
+        "station_id": 18,
+        "sensor": "temperature",
+        "value": 46.82
+    },
+    {
+        "timestamp": "2025-07-04T23:49:57+00:00",
+        "station_id": 21,
+        "sensor": "temperature",
+        "value": -17.93
+    },
+    {
+        "timestamp": "2025-07-05T08:11:43+00:00",
+        "station_id": 21,
+        "sensor": "temperature",
+        "value": -45.82
+    },
+    {
+        "timestamp": "2025-07-05T15:49:31+00:00",
+        "station_id": 16,
+        "sensor": "humidity",
+        "value": -9.55
+    },
+    {
+        "timestamp": "2025-07-05T08:20:52+00:00",
+        "station_id": 10,
+        "sensor": "temperature",
+        "value": 59.48
+    },
+    {
+        "timestamp": "2025-07-05T07:34:15+00:00",
+        "station_id": 2,
+        "sensor": "pressure",
+        "value": 973.85
+    },
+    {
+        "timestamp": "2025-07-04T21:00:15+00:00",
+        "station_id": 14,
+        "sensor": "pressure",
+        "value": 1042.56
+    },
+    {
+        "timestamp": "2025-07-05T11:05:47+00:00",
+        "station_id": 20,
+        "sensor": "humidity",
+        "value": -5.4
+    },
+    {
+        "timestamp": "2025-07-05T11:32:54+00:00",
+        "station_id": 11,
+        "sensor": "pressure",
+        "value": 1048.11
+    },
+    {
+        "timestamp": "2025-07-04T20:20:59+00:00",
+        "station_id": 9,
+        "sensor": "temperature",
+        "value": 47.06
+    },
+    {
+        "timestamp": "2025-07-05T04:00:42+00:00",
+        "station_id": 21,
+        "sensor": "pressure",
+        "value": 1039.72
+    },
+    {
+        "timestamp": "2025-07-04T23:33:19+00:00",
+        "station_id": 19,
+        "sensor": "humidity",
+        "value": 115.18
+    },
+    {
+        "timestamp": "2025-07-05T07:30:32+00:00",
+        "station_id": 24,
+        "sensor": "pressure",
+        "value": 1044.63
+    },
+    {
+        "timestamp": "2025-07-05T04:42:31+00:00",
+        "station_id": 11,
+        "sensor": "humidity",
+        "value": 110.72
+    },
+    {
+        "timestamp": "2025-07-04T23:37:34+00:00",
+        "station_id": 17,
+        "sensor": "temperature",
+        "value": -39.25
+    },
+    {
+        "timestamp": "2025-07-05T04:11:02+00:00",
+        "station_id": 9,
+        "sensor": "pressure",
+        "value": 973.5
+    },
+    {
+        "timestamp": "2025-07-05T02:32:42+00:00",
+        "station_id": 24,
+        "sensor": "humidity",
+        "value": 116.85
+    },
+    {
+        "timestamp": "2025-07-05T08:09:53+00:00",
+        "station_id": 18,
+        "sensor": "pressure",
+        "value": 1047.68
+    },
+    {
+        "timestamp": "2025-07-05T02:41:56+00:00",
+        "station_id": 21,
+        "sensor": "humidity",
+        "value": 117.34
+    },
+    {
+        "timestamp": "2025-07-05T06:15:17+00:00",
+        "station_id": 1,
+        "sensor": "temperature",
+        "value": -42.91
+    },
+    {
+        "timestamp": "2025-07-05T08:55:28+00:00",
+        "station_id": 10,
+        "sensor": "humidity",
+        "value": -12.81
+    },
+    {
+        "timestamp": "2025-07-04T17:10:06+00:00",
+        "station_id": 19,
+        "sensor": "pressure",
+        "value": 961.89
+    },
+    {
+        "timestamp": "2025-07-05T07:59:29+00:00",
+        "station_id": 18,
+        "sensor": "humidity",
+        "value": 118.14
+    },
+    {
+        "timestamp": "2025-07-05T08:13:27+00:00",
+        "station_id": 25,
+        "sensor": "pressure",
+        "value": 974.91
+    },
+    {
+        "timestamp": "2025-07-04T20:51:23+00:00",
+        "station_id": 17,
+        "sensor": "humidity",
+        "value": -8.54
+    },
+    {
+        "timestamp": "2025-07-05T00:16:57+00:00",
+        "station_id": 6,
+        "sensor": "humidity",
+        "value": -8.32
+    },
+    {
+        "timestamp": "2025-07-04T16:45:42+00:00",
+        "station_id": 21,
+        "sensor": "humidity",
+        "value": -15.31
+    },
+    {
+        "timestamp": "2025-07-05T13:21:53+00:00",
+        "station_id": 17,
+        "sensor": "humidity",
+        "value": 118.9
+    },
+    {
+        "timestamp": "2025-07-04T17:14:51+00:00",
+        "station_id": 9,
+        "sensor": "pressure",
+        "value": 1045.48
+    },
+    {
+        "timestamp": "2025-07-05T10:49:40+00:00",
+        "station_id": 13,
+        "sensor": "humidity",
+        "value": -19.12
+    },
+    {
+        "timestamp": "2025-07-05T01:57:15+00:00",
+        "station_id": 24,
+        "sensor": "humidity",
+        "value": 109.19
+    },
+    {
+        "timestamp": "2025-07-05T05:41:28+00:00",
+        "station_id": 6,
+        "sensor": "temperature",
+        "value": 52.48
+    },
+    {
+        "timestamp": "2025-07-04T16:44:59+00:00",
+        "station_id": 24,
+        "sensor": "humidity",
+        "value": 110.98
+    },
+    {
+        "timestamp": "2025-07-05T06:10:04+00:00",
+        "station_id": 19,
+        "sensor": "humidity",
+        "value": 117.0
+    },
+    {
+        "timestamp": "2025-07-05T11:04:03+00:00",
+        "station_id": 19,
+        "sensor": "pressure",
+        "value": 1058.26
+    },
+    {
+        "timestamp": "2025-07-05T15:28:31+00:00",
+        "station_id": 12,
+        "sensor": "temperature",
+        "value": 52.46
+    },
+    {
+        "timestamp": "2025-07-05T14:41:39+00:00",
+        "station_id": 24,
+        "sensor": "humidity",
+        "value": 111.02
+    },
+    {
+        "timestamp": "2025-07-05T04:19:07+00:00",
+        "station_id": 6,
+        "sensor": "pressure",
+        "value": 1043.69
+    },
+    {
+        "timestamp": "2025-07-05T02:06:15+00:00",
+        "station_id": 3,
+        "sensor": "pressure",
+        "value": 976.73
+    },
+    {
+        "timestamp": "2025-07-04T20:18:26+00:00",
+        "station_id": 14,
+        "sensor": "temperature",
+        "value": -41.54
+    },
+    {
+        "timestamp": "2025-07-04T21:02:26+00:00",
+        "station_id": 15,
+        "sensor": "humidity",
+        "value": -17.7
+    },
+    {
+        "timestamp": "2025-07-05T14:03:01+00:00",
+        "station_id": 22,
+        "sensor": "pressure",
+        "value": 1037.22
+    },
+    {
+        "timestamp": "2025-07-05T07:21:13+00:00",
+        "station_id": 14,
+        "sensor": "humidity",
+        "value": -18.43
+    },
+    {
+        "timestamp": "2025-07-05T01:29:49+00:00",
+        "station_id": 11,
+        "sensor": "pressure",
+        "value": 1046.76
+    },
+    {
+        "timestamp": "2025-07-05T11:46:28+00:00",
+        "station_id": 14,
+        "sensor": "temperature",
+        "value": -25.8
+    },
+    {
+        "timestamp": "2025-07-05T06:24:28+00:00",
+        "station_id": 7,
+        "sensor": "temperature",
+        "value": 47.9
+    },
+    {
+        "timestamp": "2025-07-05T10:36:00+00:00",
+        "station_id": 7,
+        "sensor": "pressure",
+        "value": 1057.04
+    },
+    {
+        "timestamp": "2025-07-05T04:46:45+00:00",
+        "station_id": 2,
+        "sensor": "pressure",
+        "value": 961.42
+    },
+    {
+        "timestamp": "2025-07-04T19:21:13+00:00",
+        "station_id": 23,
+        "sensor": "pressure",
+        "value": 1054.61
+    },
+    {
+        "timestamp": "2025-07-04T20:06:43+00:00",
+        "station_id": 23,
+        "sensor": "temperature",
+        "value": 49.39
+    },
+    {
+        "timestamp": "2025-07-04T17:51:09+00:00",
+        "station_id": 25,
+        "sensor": "pressure",
+        "value": 1047.71
+    },
+    {
+        "timestamp": "2025-07-04T19:05:30+00:00",
+        "station_id": 2,
+        "sensor": "humidity",
+        "value": 110.75
+    },
+    {
+        "timestamp": "2025-07-05T00:09:47+00:00",
+        "station_id": 12,
+        "sensor": "pressure",
+        "value": 1060.88
+    },
+    {
+        "timestamp": "2025-07-05T10:37:19+00:00",
+        "station_id": 18,
+        "sensor": "humidity",
+        "value": 115.9
+    },
+    {
+        "timestamp": "2025-07-04T17:22:07+00:00",
+        "station_id": 6,
+        "sensor": "temperature",
+        "value": -41.66
+    },
+    {
+        "timestamp": "2025-07-05T06:22:05+00:00",
+        "station_id": 14,
+        "sensor": "temperature",
+        "value": -46.06
+    },
+    {
+        "timestamp": "2025-07-05T05:08:39+00:00",
+        "station_id": 6,
+        "sensor": "temperature",
+        "value": -20.47
+    },
+    {
+        "timestamp": "2025-07-05T00:26:51+00:00",
+        "station_id": 13,
+        "sensor": "humidity",
+        "value": 117.04
+    },
+    {
+        "timestamp": "2025-07-04T16:07:09+00:00",
+        "station_id": 7,
+        "sensor": "temperature",
+        "value": -31.31
+    },
+    {
+        "timestamp": "2025-07-05T03:19:43+00:00",
+        "station_id": 22,
+        "sensor": "humidity",
+        "value": -15.24
+    },
+    {
+        "timestamp": "2025-07-05T05:32:02+00:00",
+        "station_id": 10,
+        "sensor": "temperature",
+        "value": 47.64
+    },
+    {
+        "timestamp": "2025-07-05T09:13:39+00:00",
+        "station_id": 19,
+        "sensor": "temperature",
+        "value": -44.2
+    },
+    {
+        "timestamp": "2025-07-05T15:52:20+00:00",
+        "station_id": 24,
+        "sensor": "pressure",
+        "value": 1038.24
+    },
+    {
+        "timestamp": "2025-07-05T05:50:34+00:00",
+        "station_id": 7,
+        "sensor": "temperature",
+        "value": 51.3
+    },
+    {
+        "timestamp": "2025-07-05T01:03:45+00:00",
+        "station_id": 13,
+        "sensor": "humidity",
+        "value": 117.69
+    },
+    {
+        "timestamp": "2025-07-05T08:38:52+00:00",
+        "station_id": 13,
+        "sensor": "pressure",
+        "value": 976.09
+    },
+    {
+        "timestamp": "2025-07-05T02:16:10+00:00",
+        "station_id": 3,
+        "sensor": "pressure",
+        "value": 1041.73
+    },
+    {
+        "timestamp": "2025-07-05T14:38:53+00:00",
+        "station_id": 21,
+        "sensor": "pressure",
+        "value": 973.08
+    },
+    {
+        "timestamp": "2025-07-05T02:29:24+00:00",
+        "station_id": 12,
+        "sensor": "humidity",
+        "value": 107.84
+    },
+    {
+        "timestamp": "2025-07-05T09:03:06+00:00",
+        "station_id": 17,
+        "sensor": "temperature",
+        "value": 53.98
+    },
+    {
+        "timestamp": "2025-07-05T05:35:50+00:00",
+        "station_id": 18,
+        "sensor": "temperature",
+        "value": 56.75
+    },
+    {
+        "timestamp": "2025-07-04T23:35:22+00:00",
+        "station_id": 2,
+        "sensor": "temperature",
+        "value": 55.96
+    },
+    {
+        "timestamp": "2025-07-05T00:05:14+00:00",
+        "station_id": 19,
+        "sensor": "temperature",
+        "value": -36.4
+    },
+    {
+        "timestamp": "2025-07-05T15:19:35+00:00",
+        "station_id": 15,
+        "sensor": "temperature",
+        "value": -12.96
+    },
+    {
+        "timestamp": "2025-07-05T05:37:43+00:00",
+        "station_id": 22,
+        "sensor": "temperature",
+        "value": -34.54
+    },
+    {
+        "timestamp": "2025-07-04T16:05:26+00:00",
+        "station_id": 11,
+        "sensor": "pressure",
+        "value": 965.31
+    },
+    {
+        "timestamp": "2025-07-05T12:56:31+00:00",
+        "station_id": 11,
+        "sensor": "humidity",
+        "value": -9.12
+    },
+    {
+        "timestamp": "2025-07-05T03:21:47+00:00",
+        "station_id": 2,
+        "sensor": "temperature",
+        "value": -40.31
+    },
+    {
+        "timestamp": "2025-07-05T05:09:13+00:00",
+        "station_id": 17,
+        "sensor": "humidity",
+        "value": 115.1
+    },
+    {
+        "timestamp": "2025-07-05T00:22:57+00:00",
+        "station_id": 21,
+        "sensor": "temperature",
+        "value": 54.1
+    },
+    {
+        "timestamp": "2025-07-04T23:13:29+00:00",
+        "station_id": 1,
+        "sensor": "pressure",
+        "value": 1050.44
+    },
+    {
+        "timestamp": "2025-07-05T11:16:41+00:00",
+        "station_id": 8,
+        "sensor": "pressure",
+        "value": 970.29
+    },
+    {
+        "timestamp": "2025-07-05T13:14:02+00:00",
+        "station_id": 7,
+        "sensor": "humidity",
+        "value": -15.64
+    },
+    {
+        "timestamp": "2025-07-05T06:34:35+00:00",
+        "station_id": 15,
+        "sensor": "pressure",
+        "value": 967.82
+    },
+    {
+        "timestamp": "2025-07-05T03:48:00+00:00",
+        "station_id": 21,
+        "sensor": "pressure",
+        "value": 1045.07
+    },
+    {
+        "timestamp": "2025-07-05T13:06:50+00:00",
+        "station_id": 16,
+        "sensor": "temperature",
+        "value": -34.56
+    },
+    {
+        "timestamp": "2025-07-05T09:06:18+00:00",
+        "station_id": 11,
+        "sensor": "humidity",
+        "value": 112.23
+    },
+    {
+        "timestamp": "2025-07-05T13:46:05+00:00",
+        "station_id": 15,
+        "sensor": "humidity",
+        "value": 116.38
+    },
+    {
+        "timestamp": "2025-07-05T04:31:21+00:00",
+        "station_id": 2,
+        "sensor": "pressure",
+        "value": 963.7
+    },
+    {
+        "timestamp": "2025-07-04T17:46:04+00:00",
+        "station_id": 17,
+        "sensor": "humidity",
+        "value": -6.87
+    },
+    {
+        "timestamp": "2025-07-05T07:32:42+00:00",
+        "station_id": 22,
+        "sensor": "humidity",
+        "value": 113.55
+    },
+    {
+        "timestamp": "2025-07-04T20:31:38+00:00",
+        "station_id": 21,
+        "sensor": "humidity",
+        "value": -15.12
+    },
+    {
+        "timestamp": "2025-07-05T11:05:36+00:00",
+        "station_id": 23,
+        "sensor": "temperature",
+        "value": 47.62
+    },
+    {
+        "timestamp": "2025-07-05T10:29:45+00:00",
+        "station_id": 1,
+        "sensor": "humidity",
+        "value": 107.88
+    },
+    {
+        "timestamp": "2025-07-05T05:46:29+00:00",
+        "station_id": 6,
+        "sensor": "temperature",
+        "value": -10.76
+    },
+    {
+        "timestamp": "2025-07-05T14:34:47+00:00",
+        "station_id": 11,
+        "sensor": "humidity",
+        "value": -18.64
+    },
+    {
+        "timestamp": "2025-07-05T03:47:43+00:00",
+        "station_id": 6,
+        "sensor": "temperature",
+        "value": -33.21
+    },
+    {
+        "timestamp": "2025-07-05T15:17:37+00:00",
+        "station_id": 18,
+        "sensor": "humidity",
+        "value": -16.31
+    },
+    {
+        "timestamp": "2025-07-05T13:41:03+00:00",
+        "station_id": 12,
+        "sensor": "temperature",
+        "value": 55.97
+    },
+    {
+        "timestamp": "2025-07-04T16:58:57+00:00",
+        "station_id": 15,
+        "sensor": "temperature",
+        "value": 51.12
+    },
+    {
+        "timestamp": "2025-07-04T19:07:38+00:00",
+        "station_id": 2,
+        "sensor": "humidity",
+        "value": -14.97
+    },
+    {
+        "timestamp": "2025-07-05T13:05:42+00:00",
+        "station_id": 1,
+        "sensor": "pressure",
+        "value": 1048.27
+    },
+    {
+        "timestamp": "2025-07-05T10:47:15+00:00",
+        "station_id": 2,
+        "sensor": "temperature",
+        "value": 55.22
+    },
+    {
+        "timestamp": "2025-07-04T18:55:45+00:00",
+        "station_id": 9,
+        "sensor": "temperature",
+        "value": -15.44
+    },
+    {
+        "timestamp": "2025-07-05T08:00:51+00:00",
+        "station_id": 14,
+        "sensor": "pressure",
+        "value": 976.6
+    },
+    {
+        "timestamp": "2025-07-05T11:45:23+00:00",
+        "station_id": 19,
+        "sensor": "temperature",
+        "value": 47.18
+    },
+    {
+        "timestamp": "2025-07-04T19:52:42+00:00",
+        "station_id": 22,
+        "sensor": "temperature",
+        "value": -32.78
+    },
+    {
+        "timestamp": "2025-07-04T22:52:31+00:00",
+        "station_id": 4,
+        "sensor": "humidity",
+        "value": 112.36
+    },
+    {
+        "timestamp": "2025-07-05T11:28:51+00:00",
+        "station_id": 20,
+        "sensor": "temperature",
+        "value": 49.83
+    },
+    {
+        "timestamp": "2025-07-05T02:14:01+00:00",
+        "station_id": 7,
+        "sensor": "pressure",
+        "value": 1048.76
+    },
+    {
+        "timestamp": "2025-07-05T00:03:54+00:00",
+        "station_id": 15,
+        "sensor": "humidity",
+        "value": -11.08
+    },
+    {
+        "timestamp": "2025-07-04T20:43:06+00:00",
+        "station_id": 15,
+        "sensor": "humidity",
+        "value": 109.25
+    },
+    {
+        "timestamp": "2025-07-05T03:58:21+00:00",
+        "station_id": 24,
+        "sensor": "humidity",
+        "value": -10.99
+    },
+    {
+        "timestamp": "2025-07-04T23:07:17+00:00",
+        "station_id": 8,
+        "sensor": "temperature",
+        "value": -27.75
+    },
+    {
+        "timestamp": "2025-07-04T20:13:28+00:00",
+        "station_id": 14,
+        "sensor": "temperature",
+        "value": 46.54
+    },
+    {
+        "timestamp": "2025-07-05T02:01:26+00:00",
+        "station_id": 2,
+        "sensor": "temperature",
+        "value": 49.97
+    },
+    {
+        "timestamp": "2025-07-05T04:08:49+00:00",
+        "station_id": 24,
+        "sensor": "pressure",
+        "value": 1053.19
+    },
+    {
+        "timestamp": "2025-07-05T08:33:25+00:00",
+        "station_id": 17,
+        "sensor": "pressure",
+        "value": 1048.9
+    },
+    {
+        "timestamp": "2025-07-05T14:33:40+00:00",
+        "station_id": 16,
+        "sensor": "pressure",
+        "value": 1056.65
+    },
+    {
+        "timestamp": "2025-07-05T07:41:00+00:00",
+        "station_id": 2,
+        "sensor": "humidity",
+        "value": -15.12
+    },
+    {
+        "timestamp": "2025-07-05T07:39:59+00:00",
+        "station_id": 21,
+        "sensor": "humidity",
+        "value": 115.02
+    },
+    {
+        "timestamp": "2025-07-04T23:49:07+00:00",
+        "station_id": 7,
+        "sensor": "humidity",
+        "value": 112.26
+    },
+    {
+        "timestamp": "2025-07-05T02:33:38+00:00",
+        "station_id": 5,
+        "sensor": "humidity",
+        "value": 106.22
+    },
+    {
+        "timestamp": "2025-07-05T13:21:36+00:00",
+        "station_id": 8,
+        "sensor": "pressure",
+        "value": 978.53
+    },
+    {
+        "timestamp": "2025-07-04T20:50:34+00:00",
+        "station_id": 7,
+        "sensor": "pressure",
+        "value": 978.48
+    },
+    {
+        "timestamp": "2025-07-05T02:43:51+00:00",
+        "station_id": 16,
+        "sensor": "humidity",
+        "value": 113.69
+    },
+    {
+        "timestamp": "2025-07-05T02:35:18+00:00",
+        "station_id": 2,
+        "sensor": "pressure",
+        "value": 959.99
+    },
+    {
+        "timestamp": "2025-07-04T16:18:58+00:00",
+        "station_id": 17,
+        "sensor": "humidity",
+        "value": 108.54
+    },
+    {
+        "timestamp": "2025-07-05T15:42:36+00:00",
+        "station_id": 22,
+        "sensor": "humidity",
+        "value": -5.33
+    },
+    {
+        "timestamp": "2025-07-05T07:19:09+00:00",
+        "station_id": 10,
+        "sensor": "humidity",
+        "value": 109.63
+    },
+    {
+        "timestamp": "2025-07-05T15:13:36+00:00",
+        "station_id": 8,
+        "sensor": "humidity",
+        "value": -9.6
+    },
+    {
+        "timestamp": "2025-07-05T02:31:10+00:00",
+        "station_id": 11,
+        "sensor": "humidity",
+        "value": 111.77
+    },
+    {
+        "timestamp": "2025-07-05T00:18:06+00:00",
+        "station_id": 10,
+        "sensor": "temperature",
+        "value": 49.48
+    },
+    {
+        "timestamp": "2025-07-05T09:48:25+00:00",
+        "station_id": 20,
+        "sensor": "humidity",
+        "value": 116.36
+    },
+    {
+        "timestamp": "2025-07-05T04:01:20+00:00",
+        "station_id": 24,
+        "sensor": "pressure",
+        "value": 958.16
+    },
+    {
+        "timestamp": "2025-07-04T16:37:49+00:00",
+        "station_id": 6,
+        "sensor": "humidity",
+        "value": 118.48
+    },
+    {
+        "timestamp": "2025-07-05T00:00:56+00:00",
+        "station_id": 2,
+        "sensor": "humidity",
+        "value": 105.76
+    },
+    {
+        "timestamp": "2025-07-05T14:41:49+00:00",
+        "station_id": 7,
+        "sensor": "pressure",
+        "value": 1042.92
+    },
+    {
+        "timestamp": "2025-07-05T08:04:34+00:00",
+        "station_id": 23,
+        "sensor": "pressure",
+        "value": 1052.18
+    },
+    {
+        "timestamp": "2025-07-05T00:50:54+00:00",
+        "station_id": 15,
+        "sensor": "temperature",
+        "value": 46.6
+    },
+    {
+        "timestamp": "2025-07-05T02:34:42+00:00",
+        "station_id": 2,
+        "sensor": "temperature",
+        "value": 49.42
+    },
+    {
+        "timestamp": "2025-07-05T04:22:07+00:00",
+        "station_id": 21,
+        "sensor": "pressure",
+        "value": 967.87
+    },
+    {
+        "timestamp": "2025-07-05T06:04:54+00:00",
+        "station_id": 7,
+        "sensor": "pressure",
+        "value": 978.77
+    },
+    {
+        "timestamp": "2025-07-05T11:20:31+00:00",
+        "station_id": 10,
+        "sensor": "pressure",
+        "value": 1048.96
+    },
+    {
+        "timestamp": "2025-07-05T12:23:45+00:00",
+        "station_id": 3,
+        "sensor": "pressure",
+        "value": 1058.42
+    },
+    {
+        "timestamp": "2025-07-04T20:17:37+00:00",
+        "station_id": 15,
+        "sensor": "temperature",
+        "value": 46.53
+    },
+    {
+        "timestamp": "2025-07-05T08:07:48+00:00",
+        "station_id": 3,
+        "sensor": "temperature",
+        "value": 48.32
+    },
+    {
+        "timestamp": "2025-07-04T20:16:37+00:00",
+        "station_id": 17,
+        "sensor": "pressure",
+        "value": 1060.96
+    },
+    {
+        "timestamp": "2025-07-05T00:06:24+00:00",
+        "station_id": 13,
+        "sensor": "humidity",
+        "value": 118.23
+    },
+    {
+        "timestamp": "2025-07-04T21:42:15+00:00",
+        "station_id": 17,
+        "sensor": "humidity",
+        "value": 108.85
+    },
+    {
+        "timestamp": "2025-07-05T03:49:50+00:00",
+        "station_id": 3,
+        "sensor": "temperature",
+        "value": 53.39
+    },
+    {
+        "timestamp": "2025-07-04T16:22:56+00:00",
+        "station_id": 4,
+        "sensor": "pressure",
+        "value": 1050.2
+    },
+    {
+        "timestamp": "2025-07-05T00:10:37+00:00",
+        "station_id": 7,
+        "sensor": "temperature",
+        "value": -21.09
+    },
+    {
+        "timestamp": "2025-07-04T19:31:28+00:00",
+        "station_id": 15,
+        "sensor": "temperature",
+        "value": -32.79
+    },
+    {
+        "timestamp": "2025-07-05T13:07:04+00:00",
+        "station_id": 17,
+        "sensor": "humidity",
+        "value": -9.66
+    },
+    {
+        "timestamp": "2025-07-04T19:51:10+00:00",
+        "station_id": 2,
+        "sensor": "humidity",
+        "value": -10.82
+    },
+    {
+        "timestamp": "2025-07-05T15:37:25+00:00",
+        "station_id": 24,
+        "sensor": "temperature",
+        "value": -25.27
+    },
+    {
+        "timestamp": "2025-07-05T10:13:58+00:00",
+        "station_id": 13,
+        "sensor": "humidity",
+        "value": -14.64
+    },
+    {
+        "timestamp": "2025-07-05T00:45:59+00:00",
+        "station_id": 22,
+        "sensor": "temperature",
+        "value": -48.71
+    },
+    {
+        "timestamp": "2025-07-05T14:46:13+00:00",
+        "station_id": 23,
+        "sensor": "humidity",
+        "value": 108.52
+    },
+    {
+        "timestamp": "2025-07-05T10:33:12+00:00",
+        "station_id": 10,
+        "sensor": "humidity",
+        "value": -7.75
+    },
+    {
+        "timestamp": "2025-07-05T01:56:20+00:00",
+        "station_id": 6,
+        "sensor": "pressure",
+        "value": 1059.18
+    },
+    {
+        "timestamp": "2025-07-05T02:50:00+00:00",
+        "station_id": 12,
+        "sensor": "temperature",
+        "value": 54.61
+    },
+    {
+        "timestamp": "2025-07-05T07:58:01+00:00",
+        "station_id": 25,
+        "sensor": "pressure",
+        "value": 964.99
+    },
+    {
+        "timestamp": "2025-07-05T14:40:45+00:00",
+        "station_id": 21,
+        "sensor": "pressure",
+        "value": 1045.33
+    },
+    {
+        "timestamp": "2025-07-04T16:20:21+00:00",
+        "station_id": 9,
+        "sensor": "humidity",
+        "value": -16.63
+    },
+    {
+        "timestamp": "2025-07-04T22:04:31+00:00",
+        "station_id": 14,
+        "sensor": "humidity",
+        "value": 112.98
+    },
+    {
+        "timestamp": "2025-07-04T21:44:44+00:00",
+        "station_id": 22,
+        "sensor": "temperature",
+        "value": 59.32
+    },
+    {
+        "timestamp": "2025-07-05T12:20:55+00:00",
+        "station_id": 2,
+        "sensor": "humidity",
+        "value": 117.15
+    },
+    {
+        "timestamp": "2025-07-05T12:28:25+00:00",
+        "station_id": 8,
+        "sensor": "humidity",
+        "value": -9.5
+    },
+    {
+        "timestamp": "2025-07-04T23:06:07+00:00",
+        "station_id": 1,
+        "sensor": "pressure",
+        "value": 978.74
+    },
+    {
+        "timestamp": "2025-07-05T10:01:21+00:00",
+        "station_id": 25,
+        "sensor": "temperature",
+        "value": 57.6
+    },
+    {
+        "timestamp": "2025-07-04T18:28:52+00:00",
+        "station_id": 1,
+        "sensor": "temperature",
+        "value": 51.9
+    },
+    {
+        "timestamp": "2025-07-04T21:13:33+00:00",
+        "station_id": 20,
+        "sensor": "humidity",
+        "value": 105.79
+    },
+    {
+        "timestamp": "2025-07-05T04:06:48+00:00",
+        "station_id": 5,
+        "sensor": "temperature",
+        "value": 58.57
+    },
+    {
+        "timestamp": "2025-07-05T00:31:20+00:00",
+        "station_id": 14,
+        "sensor": "humidity",
+        "value": -19.05
+    },
+    {
+        "timestamp": "2025-07-05T04:34:25+00:00",
+        "station_id": 5,
+        "sensor": "pressure",
+        "value": 963.7
+    },
+    {
+        "timestamp": "2025-07-05T01:38:15+00:00",
+        "station_id": 19,
+        "sensor": "temperature",
+        "value": -29.29
+    },
+    {
+        "timestamp": "2025-07-04T16:46:28+00:00",
+        "station_id": 4,
+        "sensor": "humidity",
+        "value": 112.44
+    },
+    {
+        "timestamp": "2025-07-05T10:56:44+00:00",
+        "station_id": 3,
+        "sensor": "temperature",
+        "value": 57.68
+    },
+    {
+        "timestamp": "2025-07-05T01:41:35+00:00",
+        "station_id": 3,
+        "sensor": "pressure",
+        "value": 1051.9
+    },
+    {
+        "timestamp": "2025-07-04T23:48:52+00:00",
+        "station_id": 19,
+        "sensor": "temperature",
+        "value": -28.53
+    },
+    {
+        "timestamp": "2025-07-04T20:19:57+00:00",
+        "station_id": 23,
+        "sensor": "pressure",
+        "value": 1044.52
+    },
+    {
+        "timestamp": "2025-07-05T01:08:01+00:00",
+        "station_id": 20,
+        "sensor": "temperature",
+        "value": -48.02
+    },
+    {
+        "timestamp": "2025-07-04T17:40:49+00:00",
+        "station_id": 16,
+        "sensor": "temperature",
+        "value": -18.91
+    },
+    {
+        "timestamp": "2025-07-05T00:09:40+00:00",
+        "station_id": 6,
+        "sensor": "pressure",
+        "value": 1061.89
+    },
+    {
+        "timestamp": "2025-07-04T23:09:05+00:00",
+        "station_id": 16,
+        "sensor": "pressure",
+        "value": 1046.67
+    },
+    {
+        "timestamp": "2025-07-05T10:16:24+00:00",
+        "station_id": 14,
+        "sensor": "pressure",
+        "value": 966.0
+    },
+    {
+        "timestamp": "2025-07-05T02:11:22+00:00",
+        "station_id": 14,
+        "sensor": "humidity",
+        "value": 115.01
+    },
+    {
+        "timestamp": "2025-07-05T11:40:23+00:00",
+        "station_id": 13,
+        "sensor": "temperature",
+        "value": 48.53
+    },
+    {
+        "timestamp": "2025-07-05T01:09:07+00:00",
+        "station_id": 3,
+        "sensor": "humidity",
+        "value": 106.97
+    },
+    {
+        "timestamp": "2025-07-05T12:42:12+00:00",
+        "station_id": 23,
+        "sensor": "temperature",
+        "value": -41.11
+    },
+    {
+        "timestamp": "2025-07-05T04:01:59+00:00",
+        "station_id": 20,
+        "sensor": "pressure",
+        "value": 963.68
+    },
+    {
+        "timestamp": "2025-07-04T17:55:16+00:00",
+        "station_id": 15,
+        "sensor": "humidity",
+        "value": 117.4
+    },
+    {
+        "timestamp": "2025-07-05T05:31:30+00:00",
+        "station_id": 12,
+        "sensor": "pressure",
+        "value": 971.04
+    },
+    {
+        "timestamp": "2025-07-05T02:54:21+00:00",
+        "station_id": 17,
+        "sensor": "humidity",
+        "value": 110.78
+    },
+    {
+        "timestamp": "2025-07-05T14:26:12+00:00",
+        "station_id": 14,
+        "sensor": "pressure",
+        "value": 1045.28
+    },
+    {
+        "timestamp": "2025-07-05T05:20:01+00:00",
+        "station_id": 4,
+        "sensor": "humidity",
+        "value": -19.14
+    },
+    {
+        "timestamp": "2025-07-05T07:21:51+00:00",
+        "station_id": 13,
+        "sensor": "pressure",
+        "value": 964.84
+    },
+    {
+        "timestamp": "2025-07-05T00:56:27+00:00",
+        "station_id": 5,
+        "sensor": "pressure",
+        "value": 960.49
+    },
+    {
+        "timestamp": "2025-07-04T20:51:41+00:00",
+        "station_id": 2,
+        "sensor": "humidity",
+        "value": -15.7
+    },
+    {
+        "timestamp": "2025-07-05T13:44:07+00:00",
+        "station_id": 12,
+        "sensor": "pressure",
+        "value": 1047.77
+    },
+    {
+        "timestamp": "2025-07-05T14:45:48+00:00",
+        "station_id": 2,
+        "sensor": "temperature",
+        "value": -17.72
+    },
+    {
+        "timestamp": "2025-07-05T02:16:11+00:00",
+        "station_id": 8,
+        "sensor": "humidity",
+        "value": -11.08
+    },
+    {
+        "timestamp": "2025-07-05T05:26:45+00:00",
+        "station_id": 12,
+        "sensor": "temperature",
+        "value": 59.3
+    },
+    {
+        "timestamp": "2025-07-05T12:27:48+00:00",
+        "station_id": 15,
+        "sensor": "humidity",
+        "value": -8.08
+    },
+    {
+        "timestamp": "2025-07-04T23:52:42+00:00",
+        "station_id": 2,
+        "sensor": "pressure",
+        "value": 958.45
+    },
+    {
+        "timestamp": "2025-07-05T13:58:00+00:00",
+        "station_id": 18,
+        "sensor": "pressure",
+        "value": 975.07
+    },
+    {
+        "timestamp": "2025-07-04T19:42:13+00:00",
+        "station_id": 25,
+        "sensor": "humidity",
+        "value": -8.78
+    },
+    {
+        "timestamp": "2025-07-05T14:10:11+00:00",
+        "station_id": 16,
+        "sensor": "temperature",
+        "value": 49.74
+    },
+    {
+        "timestamp": "2025-07-05T15:02:54+00:00",
+        "station_id": 11,
+        "sensor": "temperature",
+        "value": 54.41
+    },
+    {
+        "timestamp": "2025-07-05T12:34:59+00:00",
+        "station_id": 10,
+        "sensor": "pressure",
+        "value": 983.22
+    },
+    {
+        "timestamp": "2025-07-05T06:20:36+00:00",
+        "station_id": 13,
+        "sensor": "pressure",
+        "value": 970.46
+    },
+    {
+        "timestamp": "2025-07-05T14:57:58+00:00",
+        "station_id": 8,
+        "sensor": "pressure",
+        "value": 1059.81
+    },
+    {
+        "timestamp": "2025-07-04T17:52:58+00:00",
+        "station_id": 17,
+        "sensor": "humidity",
+        "value": 111.32
+    },
+    {
+        "timestamp": "2025-07-05T04:27:33+00:00",
+        "station_id": 22,
+        "sensor": "humidity",
+        "value": 112.85
+    },
+    {
+        "timestamp": "2025-07-04T23:00:55+00:00",
+        "station_id": 15,
+        "sensor": "humidity",
+        "value": -15.94
+    },
+    {
+        "timestamp": "2025-07-05T02:23:08+00:00",
+        "station_id": 23,
+        "sensor": "temperature",
+        "value": 56.01
+    },
+    {
+        "timestamp": "2025-07-05T02:42:11+00:00",
+        "station_id": 16,
+        "sensor": "pressure",
+        "value": 1053.11
+    },
+    {
+        "timestamp": "2025-07-05T01:07:49+00:00",
+        "station_id": 9,
+        "sensor": "temperature",
+        "value": 53.99
+    },
+    {
+        "timestamp": "2025-07-05T02:39:53+00:00",
+        "station_id": 3,
+        "sensor": "humidity",
+        "value": 108.73
+    },
+    {
+        "timestamp": "2025-07-05T13:15:35+00:00",
+        "station_id": 5,
+        "sensor": "pressure",
+        "value": 967.59
+    },
+    {
+        "timestamp": "2025-07-05T05:17:05+00:00",
+        "station_id": 25,
+        "sensor": "humidity",
+        "value": 113.3
+    },
+    {
+        "timestamp": "2025-07-05T10:35:20+00:00",
+        "station_id": 4,
+        "sensor": "temperature",
+        "value": 54.58
+    },
+    {
+        "timestamp": "2025-07-05T10:52:01+00:00",
+        "station_id": 22,
+        "sensor": "temperature",
+        "value": 50.82
+    },
+    {
+        "timestamp": "2025-07-04T18:39:59+00:00",
+        "station_id": 7,
+        "sensor": "humidity",
+        "value": -18.95
+    },
+    {
+        "timestamp": "2025-07-05T15:39:57+00:00",
+        "station_id": 6,
+        "sensor": "humidity",
+        "value": 109.96
+    },
+    {
+        "timestamp": "2025-07-05T06:54:54+00:00",
+        "station_id": 16,
+        "sensor": "pressure",
+        "value": 1047.61
+    },
+    {
+        "timestamp": "2025-07-05T08:19:00+00:00",
+        "station_id": 8,
+        "sensor": "pressure",
+        "value": 973.21
+    },
+    {
+        "timestamp": "2025-07-05T04:50:25+00:00",
+        "station_id": 6,
+        "sensor": "pressure",
+        "value": 959.88
+    },
+    {
+        "timestamp": "2025-07-04T20:34:10+00:00",
+        "station_id": 25,
+        "sensor": "temperature",
+        "value": 56.1
+    },
+    {
+        "timestamp": "2025-07-04T17:38:03+00:00",
+        "station_id": 24,
+        "sensor": "temperature",
+        "value": 55.22
+    },
+    {
+        "timestamp": "2025-07-04T21:05:28+00:00",
+        "station_id": 11,
+        "sensor": "pressure",
+        "value": 960.34
+    },
+    {
+        "timestamp": "2025-07-05T02:18:50+00:00",
+        "station_id": 3,
+        "sensor": "humidity",
+        "value": 117.18
+    },
+    {
+        "timestamp": "2025-07-05T02:27:01+00:00",
+        "station_id": 2,
+        "sensor": "temperature",
+        "value": -28.83
+    },
+    {
+        "timestamp": "2025-07-05T06:03:23+00:00",
+        "station_id": 1,
+        "sensor": "humidity",
+        "value": 115.38
+    },
+    {
+        "timestamp": "2025-07-05T01:03:50+00:00",
+        "station_id": 9,
+        "sensor": "humidity",
+        "value": 117.97
+    },
+    {
+        "timestamp": "2025-07-05T08:31:54+00:00",
+        "station_id": 22,
+        "sensor": "humidity",
+        "value": -13.64
+    },
+    {
+        "timestamp": "2025-07-05T14:42:21+00:00",
+        "station_id": 10,
+        "sensor": "pressure",
+        "value": 979.94
+    },
+    {
+        "timestamp": "2025-07-05T06:24:51+00:00",
+        "station_id": 3,
+        "sensor": "humidity",
+        "value": 111.39
+    },
+    {
+        "timestamp": "2025-07-05T07:29:47+00:00",
+        "station_id": 11,
+        "sensor": "pressure",
+        "value": 976.77
+    },
+    {
+        "timestamp": "2025-07-04T19:48:12+00:00",
+        "station_id": 21,
+        "sensor": "temperature",
+        "value": 52.11
+    },
+    {
+        "timestamp": "2025-07-05T14:17:10+00:00",
+        "station_id": 17,
+        "sensor": "humidity",
+        "value": 116.24
+    },
+    {
+        "timestamp": "2025-07-05T15:23:30+00:00",
+        "station_id": 22,
+        "sensor": "pressure",
+        "value": 1043.04
+    },
+    {
+        "timestamp": "2025-07-04T20:20:05+00:00",
+        "station_id": 1,
+        "sensor": "humidity",
+        "value": -19.59
+    },
+    {
+        "timestamp": "2025-07-05T03:21:32+00:00",
+        "station_id": 2,
+        "sensor": "temperature",
+        "value": 46.21
+    },
+    {
+        "timestamp": "2025-07-05T02:07:15+00:00",
+        "station_id": 5,
+        "sensor": "temperature",
+        "value": 51.63
+    },
+    {
+        "timestamp": "2025-07-04T23:07:24+00:00",
+        "station_id": 3,
+        "sensor": "pressure",
+        "value": 1046.77
+    },
+    {
+        "timestamp": "2025-07-04T17:02:50+00:00",
+        "station_id": 6,
+        "sensor": "temperature",
+        "value": -13.95
+    },
+    {
+        "timestamp": "2025-07-05T06:56:45+00:00",
+        "station_id": 8,
+        "sensor": "pressure",
+        "value": 1045.39
+    },
+    {
+        "timestamp": "2025-07-04T22:19:05+00:00",
+        "station_id": 6,
+        "sensor": "temperature",
+        "value": -35.21
+    },
+    {
+        "timestamp": "2025-07-05T13:57:16+00:00",
+        "station_id": 19,
+        "sensor": "humidity",
+        "value": 119.06
+    },
+    {
+        "timestamp": "2025-07-05T02:00:13+00:00",
+        "station_id": 1,
+        "sensor": "pressure",
+        "value": 977.52
+    },
+    {
+        "timestamp": "2025-07-05T00:32:49+00:00",
+        "station_id": 12,
+        "sensor": "temperature",
+        "value": -41.16
+    },
+    {
+        "timestamp": "2025-07-04T20:09:14+00:00",
+        "station_id": 7,
+        "sensor": "pressure",
+        "value": 1062.11
+    },
+    {
+        "timestamp": "2025-07-05T13:24:26+00:00",
+        "station_id": 4,
+        "sensor": "temperature",
+        "value": -38.93
+    },
+    {
+        "timestamp": "2025-07-05T15:06:25+00:00",
+        "station_id": 14,
+        "sensor": "pressure",
+        "value": 958.78
+    },
+    {
+        "timestamp": "2025-07-04T21:52:09+00:00",
+        "station_id": 15,
+        "sensor": "humidity",
+        "value": -5.1
+    },
+    {
+        "timestamp": "2025-07-05T15:36:03+00:00",
+        "station_id": 3,
+        "sensor": "temperature",
+        "value": -32.52
+    },
+    {
+        "timestamp": "2025-07-04T21:31:25+00:00",
+        "station_id": 4,
+        "sensor": "pressure",
+        "value": 1048.2
+    },
+    {
+        "timestamp": "2025-07-05T06:24:13+00:00",
+        "station_id": 14,
+        "sensor": "pressure",
+        "value": 1053.23
+    },
+    {
+        "timestamp": "2025-07-04T16:06:02+00:00",
+        "station_id": 14,
+        "sensor": "temperature",
+        "value": -49.59
+    },
+    {
+        "timestamp": "2025-07-05T02:01:54+00:00",
+        "station_id": 2,
+        "sensor": "humidity",
+        "value": 110.46
+    },
+    {
+        "timestamp": "2025-07-05T08:23:07+00:00",
+        "station_id": 1,
+        "sensor": "temperature",
+        "value": -41.42
+    },
+    {
+        "timestamp": "2025-07-04T22:40:12+00:00",
+        "station_id": 5,
+        "sensor": "pressure",
+        "value": 1047.27
+    },
+    {
+        "timestamp": "2025-07-05T07:06:06+00:00",
+        "station_id": 12,
+        "sensor": "humidity",
+        "value": -10.31
+    },
+    {
+        "timestamp": "2025-07-04T17:55:47+00:00",
+        "station_id": 16,
+        "sensor": "pressure",
+        "value": 978.77
+    },
+    {
+        "timestamp": "2025-07-05T10:49:08+00:00",
+        "station_id": 24,
+        "sensor": "temperature",
+        "value": -22.65
+    },
+    {
+        "timestamp": "2025-07-04T20:51:47+00:00",
+        "station_id": 25,
+        "sensor": "humidity",
+        "value": 110.59
+    },
+    {
+        "timestamp": "2025-07-05T11:52:42+00:00",
+        "station_id": 9,
+        "sensor": "pressure",
+        "value": 969.63
+    },
+    {
+        "timestamp": "2025-07-04T16:39:33+00:00",
+        "station_id": 8,
+        "sensor": "temperature",
+        "value": 49.27
+    },
+    {
+        "timestamp": "2025-07-05T13:46:49+00:00",
+        "station_id": 25,
+        "sensor": "pressure",
+        "value": 1048.66
+    },
+    {
+        "timestamp": "2025-07-05T05:50:25+00:00",
+        "station_id": 19,
+        "sensor": "humidity",
+        "value": 112.75
+    },
+    {
+        "timestamp": "2025-07-04T18:29:48+00:00",
+        "station_id": 14,
+        "sensor": "temperature",
+        "value": -46.42
+    },
+    {
+        "timestamp": "2025-07-05T06:18:46+00:00",
+        "station_id": 21,
+        "sensor": "temperature",
+        "value": -25.35
+    },
+    {
+        "timestamp": "2025-07-05T03:43:02+00:00",
+        "station_id": 7,
+        "sensor": "pressure",
+        "value": 968.81
+    },
+    {
+        "timestamp": "2025-07-04T23:56:29+00:00",
+        "station_id": 10,
+        "sensor": "humidity",
+        "value": -5.33
+    },
+    {
+        "timestamp": "2025-07-05T01:52:29+00:00",
+        "station_id": 8,
+        "sensor": "humidity",
+        "value": 117.73
+    },
+    {
+        "timestamp": "2025-07-05T03:06:09+00:00",
+        "station_id": 6,
+        "sensor": "temperature",
+        "value": -46.55
+    },
+    {
+        "timestamp": "2025-07-04T23:06:44+00:00",
+        "station_id": 9,
+        "sensor": "humidity",
+        "value": 116.94
+    },
+    {
+        "timestamp": "2025-07-05T07:32:09+00:00",
+        "station_id": 23,
+        "sensor": "pressure",
+        "value": 964.12
+    },
+    {
+        "timestamp": "2025-07-04T21:45:37+00:00",
+        "station_id": 24,
+        "sensor": "temperature",
+        "value": 58.7
+    },
+    {
+        "timestamp": "2025-07-05T07:50:07+00:00",
+        "station_id": 2,
+        "sensor": "temperature",
+        "value": 58.43
+    },
+    {
+        "timestamp": "2025-07-04T20:09:35+00:00",
+        "station_id": 3,
+        "sensor": "temperature",
+        "value": 58.74
+    },
+    {
+        "timestamp": "2025-07-04T19:32:23+00:00",
+        "station_id": 18,
+        "sensor": "pressure",
+        "value": 969.83
+    },
+    {
+        "timestamp": "2025-07-05T11:52:49+00:00",
+        "station_id": 1,
+        "sensor": "humidity",
+        "value": 114.97
+    },
+    {
+        "timestamp": "2025-07-04T21:02:17+00:00",
+        "station_id": 24,
+        "sensor": "pressure",
+        "value": 956.7
+    },
+    {
+        "timestamp": "2025-07-05T09:08:13+00:00",
+        "station_id": 12,
+        "sensor": "humidity",
+        "value": -17.62
+    },
+    {
+        "timestamp": "2025-07-04T16:48:07+00:00",
+        "station_id": 1,
+        "sensor": "temperature",
+        "value": -29.29
+    },
+    {
+        "timestamp": "2025-07-04T20:41:38+00:00",
+        "station_id": 20,
+        "sensor": "pressure",
+        "value": 1041.33
+    },
+    {
+        "timestamp": "2025-07-04T17:29:06+00:00",
+        "station_id": 18,
+        "sensor": "temperature",
+        "value": 57.86
+    },
+    {
+        "timestamp": "2025-07-05T07:28:23+00:00",
+        "station_id": 17,
+        "sensor": "humidity",
+        "value": 117.19
+    },
+    {
+        "timestamp": "2025-07-04T16:48:29+00:00",
+        "station_id": 9,
+        "sensor": "pressure",
+        "value": 1060.29
+    },
+    {
+        "timestamp": "2025-07-05T15:31:57+00:00",
+        "station_id": 12,
+        "sensor": "temperature",
+        "value": 52.91
+    },
+    {
+        "timestamp": "2025-07-05T11:50:27+00:00",
+        "station_id": 2,
+        "sensor": "humidity",
+        "value": -12.47
+    },
+    {
+        "timestamp": "2025-07-05T12:15:07+00:00",
+        "station_id": 10,
+        "sensor": "temperature",
+        "value": -17.23
+    },
+    {
+        "timestamp": "2025-07-05T06:04:08+00:00",
+        "station_id": 20,
+        "sensor": "temperature",
+        "value": 54.52
+    },
+    {
+        "timestamp": "2025-07-05T03:32:30+00:00",
+        "station_id": 4,
+        "sensor": "pressure",
+        "value": 1046.51
+    },
+    {
+        "timestamp": "2025-07-05T04:27:30+00:00",
+        "station_id": 8,
+        "sensor": "temperature",
+        "value": -32.33
+    },
+    {
+        "timestamp": "2025-07-05T15:21:01+00:00",
+        "station_id": 22,
+        "sensor": "pressure",
+        "value": 965.42
+    },
+    {
+        "timestamp": "2025-07-04T21:26:06+00:00",
+        "station_id": 11,
+        "sensor": "humidity",
+        "value": -13.63
+    },
+    {
+        "timestamp": "2025-07-05T03:00:36+00:00",
+        "station_id": 20,
+        "sensor": "temperature",
+        "value": 54.58
+    },
+    {
+        "timestamp": "2025-07-05T00:41:41+00:00",
+        "station_id": 23,
+        "sensor": "pressure",
+        "value": 1048.19
+    },
+    {
+        "timestamp": "2025-07-04T23:07:52+00:00",
+        "station_id": 22,
+        "sensor": "pressure",
+        "value": 1050.46
+    },
+    {
+        "timestamp": "2025-07-04T23:47:18+00:00",
+        "station_id": 9,
+        "sensor": "humidity",
+        "value": 110.67
+    },
+    {
+        "timestamp": "2025-07-05T04:25:03+00:00",
+        "station_id": 15,
+        "sensor": "humidity",
+        "value": -5.27
+    },
+    {
+        "timestamp": "2025-07-04T21:36:50+00:00",
+        "station_id": 25,
+        "sensor": "temperature",
+        "value": 58.98
+    },
+    {
+        "timestamp": "2025-07-05T04:13:54+00:00",
+        "station_id": 5,
+        "sensor": "humidity",
+        "value": 110.17
+    },
+    {
+        "timestamp": "2025-07-05T01:15:52+00:00",
+        "station_id": 19,
+        "sensor": "pressure",
+        "value": 1052.76
+    },
+    {
+        "timestamp": "2025-07-04T23:15:07+00:00",
+        "station_id": 7,
+        "sensor": "humidity",
+        "value": 117.82
+    },
+    {
+        "timestamp": "2025-07-05T11:08:45+00:00",
+        "station_id": 14,
+        "sensor": "humidity",
+        "value": 107.42
+    },
+    {
+        "timestamp": "2025-07-04T19:24:37+00:00",
+        "station_id": 15,
+        "sensor": "humidity",
+        "value": -19.71
+    },
+    {
+        "timestamp": "2025-07-04T19:03:40+00:00",
+        "station_id": 5,
+        "sensor": "humidity",
+        "value": -8.65
+    },
+    {
+        "timestamp": "2025-07-04T23:02:42+00:00",
+        "station_id": 14,
+        "sensor": "pressure",
+        "value": 975.94
+    },
+    {
+        "timestamp": "2025-07-05T01:22:43+00:00",
+        "station_id": 6,
+        "sensor": "humidity",
+        "value": 118.13
+    },
+    {
+        "timestamp": "2025-07-05T01:40:46+00:00",
+        "station_id": 23,
+        "sensor": "humidity",
+        "value": -12.28
+    },
+    {
+        "timestamp": "2025-07-05T07:44:49+00:00",
+        "station_id": 5,
+        "sensor": "temperature",
+        "value": -33.84
+    },
+    {
+        "timestamp": "2025-07-05T09:37:57+00:00",
+        "station_id": 16,
+        "sensor": "humidity",
+        "value": 108.55
+    },
+    {
+        "timestamp": "2025-07-04T20:30:11+00:00",
+        "station_id": 19,
+        "sensor": "temperature",
+        "value": 56.48
+    },
+    {
+        "timestamp": "2025-07-05T12:11:40+00:00",
+        "station_id": 23,
+        "sensor": "humidity",
+        "value": -6.51
+    },
+    {
+        "timestamp": "2025-07-05T08:30:31+00:00",
+        "station_id": 18,
+        "sensor": "humidity",
+        "value": -18.96
+    },
+    {
+        "timestamp": "2025-07-04T22:18:35+00:00",
+        "station_id": 21,
+        "sensor": "temperature",
+        "value": -26.89
+    },
+    {
+        "timestamp": "2025-07-05T01:53:34+00:00",
+        "station_id": 15,
+        "sensor": "humidity",
+        "value": 115.91
+    },
+    {
+        "timestamp": "2025-07-05T04:26:52+00:00",
+        "station_id": 19,
+        "sensor": "humidity",
+        "value": 108.17
+    },
+    {
+        "timestamp": "2025-07-04T16:24:49+00:00",
+        "station_id": 18,
+        "sensor": "humidity",
+        "value": -12.77
+    },
+    {
+        "timestamp": "2025-07-05T14:01:17+00:00",
+        "station_id": 13,
+        "sensor": "humidity",
+        "value": -6.7
+    },
+    {
+        "timestamp": "2025-07-05T02:54:50+00:00",
+        "station_id": 11,
+        "sensor": "humidity",
+        "value": 111.76
+    },
+    {
+        "timestamp": "2025-07-05T11:28:51+00:00",
+        "station_id": 8,
+        "sensor": "pressure",
+        "value": 1047.8
+    },
+    {
+        "timestamp": "2025-07-05T06:35:07+00:00",
+        "station_id": 4,
+        "sensor": "pressure",
+        "value": 1044.39
+    },
+    {
+        "timestamp": "2025-07-05T09:10:05+00:00",
+        "station_id": 11,
+        "sensor": "pressure",
+        "value": 1037.82
+    },
+    {
+        "timestamp": "2025-07-05T08:20:17+00:00",
+        "station_id": 14,
+        "sensor": "temperature",
+        "value": 55.56
+    },
+    {
+        "timestamp": "2025-07-05T12:15:49+00:00",
+        "station_id": 22,
+        "sensor": "pressure",
+        "value": 965.46
+    },
+    {
+        "timestamp": "2025-07-04T21:58:29+00:00",
+        "station_id": 22,
+        "sensor": "humidity",
+        "value": 112.72
+    },
+    {
+        "timestamp": "2025-07-04T16:08:25+00:00",
+        "station_id": 9,
+        "sensor": "temperature",
+        "value": 59.82
+    },
+    {
+        "timestamp": "2025-07-04T22:07:45+00:00",
+        "station_id": 20,
+        "sensor": "humidity",
+        "value": -17.28
+    },
+    {
+        "timestamp": "2025-07-05T08:11:52+00:00",
+        "station_id": 2,
+        "sensor": "temperature",
+        "value": 57.93
+    },
+    {
+        "timestamp": "2025-07-04T16:53:43+00:00",
+        "station_id": 13,
+        "sensor": "temperature",
+        "value": 58.36
+    },
+    {
+        "timestamp": "2025-07-04T19:14:32+00:00",
+        "station_id": 16,
+        "sensor": "humidity",
+        "value": -14.02
+    },
+    {
+        "timestamp": "2025-07-04T23:15:30+00:00",
+        "station_id": 15,
+        "sensor": "temperature",
+        "value": 50.02
+    },
+    {
+        "timestamp": "2025-07-05T08:25:50+00:00",
+        "station_id": 17,
+        "sensor": "pressure",
+        "value": 980.54
+    },
+    {
+        "timestamp": "2025-07-05T07:19:38+00:00",
+        "station_id": 16,
+        "sensor": "humidity",
+        "value": -6.07
+    },
+    {
+        "timestamp": "2025-07-05T04:45:38+00:00",
+        "station_id": 22,
+        "sensor": "humidity",
+        "value": 114.04
+    },
+    {
+        "timestamp": "2025-07-05T01:46:03+00:00",
+        "station_id": 9,
+        "sensor": "pressure",
+        "value": 975.03
+    },
+    {
+        "timestamp": "2025-07-04T22:51:14+00:00",
+        "station_id": 18,
+        "sensor": "pressure",
+        "value": 1045.41
+    },
+    {
+        "timestamp": "2025-07-05T13:38:00+00:00",
+        "station_id": 3,
+        "sensor": "temperature",
+        "value": -22.39
+    },
+    {
+        "timestamp": "2025-07-05T00:32:38+00:00",
+        "station_id": 25,
+        "sensor": "temperature",
+        "value": 55.68
+    },
+    {
+        "timestamp": "2025-07-04T16:58:02+00:00",
+        "station_id": 7,
+        "sensor": "humidity",
+        "value": 111.05
+    },
+    {
+        "timestamp": "2025-07-05T11:25:39+00:00",
+        "station_id": 15,
+        "sensor": "temperature",
+        "value": 52.74
+    },
+    {
+        "timestamp": "2025-07-04T22:45:15+00:00",
+        "station_id": 8,
+        "sensor": "humidity",
+        "value": -17.95
+    },
+    {
+        "timestamp": "2025-07-04T18:44:27+00:00",
+        "station_id": 9,
+        "sensor": "pressure",
+        "value": 1056.3
+    },
+    {
+        "timestamp": "2025-07-04T18:33:22+00:00",
+        "station_id": 16,
+        "sensor": "humidity",
+        "value": 113.38
+    },
+    {
+        "timestamp": "2025-07-05T10:18:45+00:00",
+        "station_id": 3,
+        "sensor": "humidity",
+        "value": 111.13
+    },
+    {
+        "timestamp": "2025-07-05T01:12:45+00:00",
+        "station_id": 21,
+        "sensor": "temperature",
+        "value": -33.25
+    },
+    {
+        "timestamp": "2025-07-04T20:23:49+00:00",
+        "station_id": 9,
+        "sensor": "pressure",
+        "value": 1062.82
+    },
+    {
+        "timestamp": "2025-07-04T16:54:27+00:00",
+        "station_id": 12,
+        "sensor": "temperature",
+        "value": -25.53
+    },
+    {
+        "timestamp": "2025-07-04T22:39:59+00:00",
+        "station_id": 21,
+        "sensor": "temperature",
+        "value": -22.37
+    },
+    {
+        "timestamp": "2025-07-05T02:38:41+00:00",
+        "station_id": 14,
+        "sensor": "pressure",
+        "value": 962.94
+    },
+    {
+        "timestamp": "2025-07-04T21:18:46+00:00",
+        "station_id": 16,
+        "sensor": "pressure",
+        "value": 1045.34
+    },
+    {
+        "timestamp": "2025-07-04T17:37:25+00:00",
+        "station_id": 25,
+        "sensor": "humidity",
+        "value": -10.09
+    },
+    {
+        "timestamp": "2025-07-04T22:59:02+00:00",
+        "station_id": 14,
+        "sensor": "temperature",
+        "value": -28.09
+    },
+    {
+        "timestamp": "2025-07-05T08:58:38+00:00",
+        "station_id": 22,
+        "sensor": "humidity",
+        "value": -8.99
+    },
+    {
+        "timestamp": "2025-07-05T13:01:39+00:00",
+        "station_id": 5,
+        "sensor": "humidity",
+        "value": -9.93
+    },
+    {
+        "timestamp": "2025-07-05T05:35:35+00:00",
+        "station_id": 17,
+        "sensor": "pressure",
+        "value": 1054.56
+    },
+    {
+        "timestamp": "2025-07-05T12:03:54+00:00",
+        "station_id": 13,
+        "sensor": "pressure",
+        "value": 1043.92
+    },
+    {
+        "timestamp": "2025-07-05T10:14:53+00:00",
+        "station_id": 12,
+        "sensor": "temperature",
+        "value": -13.66
+    },
+    {
+        "timestamp": "2025-07-05T08:43:09+00:00",
+        "station_id": 14,
+        "sensor": "humidity",
+        "value": 105.4
+    },
+    {
+        "timestamp": "2025-07-04T16:34:02+00:00",
+        "station_id": 21,
+        "sensor": "pressure",
+        "value": 967.74
+    },
+    {
+        "timestamp": "2025-07-04T17:38:58+00:00",
+        "station_id": 21,
+        "sensor": "humidity",
+        "value": -5.85
+    },
+    {
+        "timestamp": "2025-07-05T01:45:27+00:00",
+        "station_id": 16,
+        "sensor": "pressure",
+        "value": 1053.0
+    },
+    {
+        "timestamp": "2025-07-05T04:48:31+00:00",
+        "station_id": 1,
+        "sensor": "pressure",
+        "value": 1049.62
+    },
+    {
+        "timestamp": "2025-07-04T23:22:08+00:00",
+        "station_id": 24,
+        "sensor": "temperature",
+        "value": 50.21
+    },
+    {
+        "timestamp": "2025-07-04T21:22:07+00:00",
+        "station_id": 8,
+        "sensor": "humidity",
+        "value": -19.52
+    },
+    {
+        "timestamp": "2025-07-05T04:42:10+00:00",
+        "station_id": 4,
+        "sensor": "humidity",
+        "value": -15.74
+    },
+    {
+        "timestamp": "2025-07-05T13:41:30+00:00",
+        "station_id": 10,
+        "sensor": "pressure",
+        "value": 974.56
+    },
+    {
+        "timestamp": "2025-07-05T12:09:21+00:00",
+        "station_id": 9,
+        "sensor": "pressure",
+        "value": 1057.14
+    },
+    {
+        "timestamp": "2025-07-05T05:01:47+00:00",
+        "station_id": 15,
+        "sensor": "humidity",
+        "value": 108.65
+    },
+    {
+        "timestamp": "2025-07-05T04:49:05+00:00",
+        "station_id": 13,
+        "sensor": "temperature",
+        "value": -47.84
+    },
+    {
+        "timestamp": "2025-07-04T18:32:24+00:00",
+        "station_id": 10,
+        "sensor": "humidity",
+        "value": 116.49
+    },
+    {
+        "timestamp": "2025-07-05T15:45:58+00:00",
+        "station_id": 9,
+        "sensor": "humidity",
+        "value": 115.98
+    },
+    {
+        "timestamp": "2025-07-05T05:41:50+00:00",
+        "station_id": 8,
+        "sensor": "temperature",
+        "value": -36.74
+    },
+    {
+        "timestamp": "2025-07-04T22:33:50+00:00",
+        "station_id": 21,
+        "sensor": "temperature",
+        "value": 50.8
+    },
+    {
+        "timestamp": "2025-07-05T08:20:49+00:00",
+        "station_id": 12,
+        "sensor": "pressure",
+        "value": 978.55
+    },
+    {
+        "timestamp": "2025-07-04T18:53:09+00:00",
+        "station_id": 3,
+        "sensor": "pressure",
+        "value": 1051.79
+    },
+    {
+        "timestamp": "2025-07-05T00:07:14+00:00",
+        "station_id": 5,
+        "sensor": "temperature",
+        "value": 49.75
+    },
+    {
+        "timestamp": "2025-07-05T13:57:59+00:00",
+        "station_id": 12,
+        "sensor": "temperature",
+        "value": 52.37
+    },
+    {
+        "timestamp": "2025-07-05T01:49:02+00:00",
+        "station_id": 24,
+        "sensor": "pressure",
+        "value": 957.69
+    },
+    {
+        "timestamp": "2025-07-05T12:32:08+00:00",
+        "station_id": 15,
+        "sensor": "temperature",
+        "value": 47.49
+    },
+    {
+        "timestamp": "2025-07-05T00:48:21+00:00",
+        "station_id": 17,
+        "sensor": "temperature",
+        "value": 53.79
+    },
+    {
+        "timestamp": "2025-07-05T06:01:33+00:00",
+        "station_id": 20,
+        "sensor": "humidity",
+        "value": -11.21
+    },
+    {
+        "timestamp": "2025-07-05T14:27:18+00:00",
+        "station_id": 4,
+        "sensor": "humidity",
+        "value": 109.73
+    },
+    {
+        "timestamp": "2025-07-05T15:32:49+00:00",
+        "station_id": 3,
+        "sensor": "humidity",
+        "value": -13.48
+    },
+    {
+        "timestamp": "2025-07-05T06:49:50+00:00",
+        "station_id": 12,
+        "sensor": "humidity",
+        "value": 108.15
+    },
+    {
+        "timestamp": "2025-07-04T18:26:49+00:00",
+        "station_id": 11,
+        "sensor": "humidity",
+        "value": 109.24
+    },
+    {
+        "timestamp": "2025-07-05T00:33:05+00:00",
+        "station_id": 9,
+        "sensor": "humidity",
+        "value": 116.54
+    },
+    {
+        "timestamp": "2025-07-04T20:00:51+00:00",
+        "station_id": 2,
+        "sensor": "humidity",
+        "value": 118.28
+    },
+    {
+        "timestamp": "2025-07-05T08:44:08+00:00",
+        "station_id": 18,
+        "sensor": "humidity",
+        "value": -7.41
+    },
+    {
+        "timestamp": "2025-07-05T09:48:51+00:00",
+        "station_id": 6,
+        "sensor": "temperature",
+        "value": -40.31
+    },
+    {
+        "timestamp": "2025-07-04T18:13:59+00:00",
+        "station_id": 19,
+        "sensor": "pressure",
+        "value": 1058.61
+    },
+    {
+        "timestamp": "2025-07-05T07:00:15+00:00",
+        "station_id": 9,
+        "sensor": "temperature",
+        "value": 57.13
+    }
+]
