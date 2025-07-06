@@ -1,0 +1,45 @@
+version: '3.8'
+
+services:
+  rabbitmq:
+    image: rabbitmq:3.13-management # A imagem inclui uma interface de gerenciamento
+    container_name: 'rabbitmq'
+    ports:
+      - "5672:5672"   # Porta para comunicação dos scripts
+      - "15672:15672" # Porta para a interface de gerenciamento web
+    networks:
+      - app-network
+  # ... (o serviço do rabbitmq continua aqui) ...
+
+  spark-master:
+    image: bitnami/spark:3.5
+    container_name: spark-master
+    command: >
+      /opt/bitnami/spark/bin/spark-class org.apache.spark.deploy.master.Master
+    ports:
+      - "9090:8080" # UI Web do Spark Master
+      - "7077:7077" # Porta para submeter as aplicações
+    volumes:
+      - ./data:/opt/bitnami/spark/data # Mapeia a pasta de dados
+      - ./solution_spark:/opt/bitnami/spark/apps # Mapeia a pasta com nosso script
+    networks:
+      - app-network
+
+  spark-worker:
+    image: bitnami/spark:3.5
+    container_name: spark-worker
+    command: >
+      /opt/bitnami/spark/bin/spark-class org.apache.spark.deploy.worker.Worker spark://spark-master:7077
+    depends_on:
+      - spark-master
+    volumes:
+      - ./data:/opt/bitnami/spark/data
+      - ./solution_spark:/opt/bitnami/spark/apps
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
+
+  
