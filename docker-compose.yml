@@ -57,6 +57,8 @@ services:
     depends_on:
       - rabbitmq
       - spark-master
+    mem_limit: 4g
+    memswap_limit: 4g
     command: python -m streamlit run dashboard/app.py --server.port 8501 --server.address 0.0.0.0
 
 

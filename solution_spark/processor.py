@@ -30,16 +30,16 @@ def run_spark_analysis(data_path: str, num_workers: int) -> tuple[float, list]:
 
     # 3. Identificar anomalias e enriquecer o DataFrame
     anomaly_conditions = (
-        (col("temperature") < 5.0) | (col("temperature") > 45.0) |
-        (col("humidity") < 0.0) | (col("humidity") > 100.0) |
-        (col("pressure") < 980.0) | (col("pressure") > 1040.0)
+        (col("temperature") >= 45.0) | (col("temperature") <= -10.0) |
+        (col("humidity") > 100.0) | (col("humidity") < 0.0) |
+        (col("pressure") > 1040.0) | (col("pressure") < 980.0)
     )
     
     df_with_anomalies = df.withColumn("is_anomaly", when(anomaly_conditions, 1).otherwise(0)) \
         .withColumn("anomaly_sensor", 
-            when((col("temperature") < 5.0) | (col("temperature") > 45.0), "temperature")
-            .when((col("humidity") < 0.0) | (col("humidity") > 100.0), "humidity")
-            .when((col("pressure") < 980.0) | (col("pressure") > 1040.0), "pressure")
+            when((col("temperature") >= 45.0) | (col("temperature") <= -10.0), "temperature")
+            .when((col("humidity") > 100.0) | (col("humidity") < 0.0), "humidity")
+            .when((col("pressure") > 1040.0) | (col("pressure") < 980.0), "pressure")
             .otherwise(None)
         )
     

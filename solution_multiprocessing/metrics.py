@@ -3,15 +3,23 @@ from datetime import datetime, timedelta
 
 def is_anomalous(event: dict) -> tuple[bool, str | None]:
     """
-    Checks if a given event contains an anomalous sensor reading.
-    Returns a tuple: (is_anomaly: bool, anomalous_sensor: str | None)
+    Verifica se um evento contém uma leitura de sensor anômala.
+    As regras agora são INCLUSIVAS para corresponder perfeitamente à geração.
     """
-    if event['temperature'] < -10.0 or event['temperature'] > 45.0:
+    # Anomalia de Temperatura: gerador cria valores >= 45.0 ou <= -10.0
+    if event['temperature'] >= 45.0 or event['temperature'] <= -10.0:
         return (True, 'temperature')
-    if event['humidity'] < 0.0 or event['humidity'] > 100.0:
+    
+    # Anomalia de Umidade: gerador cria valores > 100.0 ou < 0.0
+    # A lógica original `> 100.0` ou `< 0.0` estava correta aqui.
+    if event['humidity'] > 100.0 or event['humidity'] < 0.0:
         return (True, 'humidity')
-    if event['pressure'] < 950.0 or event['pressure'] > 1070.0:
+        
+    # Anomalia de Pressão: gerador cria valores fora da faixa normal de 980-1040
+    # A lógica original `> 1040.0` ou `< 980.0` estava funcionalmente correta, vamos mantê-la.
+    if event['pressure'] > 1040.0 or event['pressure'] < 980.0:
         return (True, 'pressure')
+        
     return (False, None)
 
 
