@@ -37,7 +37,7 @@ Certifique-se de ter o **Docker Desktop** instalado e em execução na sua máqu
 Clone este projeto para a sua máquina local.
 
 ```bash
-git clone <url-do-seu-repositorio>
+git clone https://github.com/Vilasz/AS-CE.git
 ```
 
 #### 2. Verificar o Arquivo de Dependências
