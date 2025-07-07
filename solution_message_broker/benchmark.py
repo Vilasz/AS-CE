@@ -1,4 +1,3 @@
-# solution_message_broker/benchmark.py
 import pika
 import time
 import subprocess
@@ -16,34 +15,28 @@ def run_single_test(data_path: str, num_workers: int) -> float:
     channel.queue_purge(queue='result_queue')
     connection.close()
 
-    # Inicia o producer PRIMEIRO para encher a fila
     total_tasks = run_producer(data_path)
     if total_tasks <= 0: return -1.0
     print(f"Teste com {num_workers} worker(s): {total_tasks} tarefas na fila.")
 
     start_time = time.perf_counter()
 
-    # Inicia os workers, que irão consumir da fila e se encerrar
     workers = []
     for _ in range(num_workers):
         proc = subprocess.Popen(['python', '-m', 'solution_message_broker.worker'])
         workers.append(proc)
     
-    # Aguarda os processos worker terminarem (opcional, mas bom para clareza)
     for proc in workers:
         proc.wait()
 
-    # Coleta os resultados (UM por worker)
     connection = pika.BlockingConnection(pika.ConnectionParameters('localhost'))
     channel = connection.channel()
     worker_results = []
-    # O timeout aqui é crucial para não ficar esperando para sempre
-    for method_frame, properties, body in channel.consume('result_queue', inactivity_timeout=2):
+    for method_frame, properties, body in channel.consume('result_queue', inactivity_timeout=3):
         if method_frame is None: break
         worker_results.append(json.loads(body))
         channel.basic_ack(delivery_tag=method_frame.delivery_tag)
     
-    # --- AGREGAÇÃO FINAL (MUITO RÁPIDA) ---
     final_station_report = defaultdict(lambda: {"total_events": 0, "anomaly_events": 0, "multi_sensor_periods": 0})
     for res in worker_results:
         for station_id, metrics in res["station_metrics"].items():

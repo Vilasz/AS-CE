@@ -1,4 +1,3 @@
-# data_generator/generator.py
 import csv
 import random
 import datetime
@@ -9,7 +8,6 @@ import argparse # Import for command-line arguments
 from core.models import MeteorologicalEvent
 from data_generator.anomalies import ANOMALY_FUNCTIONS
 
-# --- Configuration ---
 NUM_REGIONS = 5
 STATIONS_PER_REGION = 5
 TOTAL_STATIONS = NUM_REGIONS * STATIONS_PER_REGION
@@ -18,7 +16,6 @@ def setup_regions(fake: Faker) -> dict:
     """Creates a set of fake regions with varied base meteorological data, ensuring uniqueness."""
     regions = {}
     
-    # Usa um loop para garantir que tenhamos o número exato de regiões únicas
     while len(regions) < NUM_REGIONS:
         region_name = fake.city()
         if region_name not in regions:
@@ -78,7 +75,6 @@ def generate_data(num_events: int, anomaly_percentage: float, output_csv_path: s
     print("Data generation complete.")
 
 if __name__ == "__main__":
-    # Setup command-line argument parser
     parser = argparse.ArgumentParser(description="Generate synthetic meteorological data.")
     parser.add_argument("--events", type=int, default=10000, help="Number of events to generate.")
     parser.add_argument("--anomaly_perc", type=float, default=5.0, help="Percentage of anomalies to introduce.")

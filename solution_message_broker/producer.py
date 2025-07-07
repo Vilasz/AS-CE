@@ -1,4 +1,3 @@
-# solution_message_broker/producer.py
 import pika
 import csv
 import json

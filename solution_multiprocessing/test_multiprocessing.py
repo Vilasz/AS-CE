@@ -1,4 +1,3 @@
-# solution_multiprocessing/processor.py
 
 import multiprocessing
 import time
@@ -6,7 +5,6 @@ from collections import defaultdict
 from .metrics import is_anomalous, calculate_moving_averages, count_multi_sensor_anomaly_periods
 from .data_parser import load_and_group_by_station, load_and_group_by_region
 
-# --- As funções Worker (process_station_chunk, process_region_chunk) continuam as mesmas ---
 
 def process_station_chunk(station_data: tuple[int, list[dict]]) -> dict:
     station_id, event_list = station_data
@@ -30,13 +28,11 @@ def process_region_chunk(region_data: tuple[str, list[dict]]) -> dict:
     moving_averages = calculate_moving_averages(event_list, window_size=50)
     return {region_name: moving_averages}
 
-# --- Orquestrador de Benchmark ---
 
 def run_analysis_benchmark(data_path: str, num_workers: int, workload_multiplier: int) -> float:
     """
     Executa a análise completa e retorna o tempo de execução.
     """
-    # Carrega os dados uma única vez
     station_groups = load_and_group_by_station(data_path)
     region_groups = load_and_group_by_region(data_path)
 
@@ -44,13 +40,11 @@ def run_analysis_benchmark(data_path: str, num_workers: int, workload_multiplier
         print("Arquivo de dados não encontrado.")
         return -1.0
         
-    # Simula uma carga de trabalho maior replicando a lista de tarefas
     station_work_items = list(station_groups.items()) * workload_multiplier
     region_work_items = list(region_groups.items()) * workload_multiplier
 
     start_time = time.perf_counter()
 
-    # Define o número de workers para o Pool
     with multiprocessing.Pool(processes=num_workers) as pool:
         # Executa ambas as análises
         pool.map(process_station_chunk, station_work_items)
@@ -65,9 +59,7 @@ def run_analysis_benchmark(data_path: str, num_workers: int, workload_multiplier
 
 if __name__ == "__main__":
     DATA_FILE = "data/synthetic_data.csv"
-    # Aumenta a carga de trabalho para que a tarefa demore alguns segundos
     WORKLOAD_MULTIPLIER = 100 
-    # Lista de contagens de workers para testar
     WORKER_COUNTS = [1, 2, 4, 8] 
 
     print("Iniciando benchmark de desempenho do multiprocessing...")
@@ -75,7 +67,6 @@ if __name__ == "__main__":
 
     results = {}
     for workers in WORKER_COUNTS:
-        # Ignora o teste se o número de workers for maior que o de CPUs disponíveis
         if workers > multiprocessing.cpu_count():
             print(f"Pulando teste com {workers} workers (Máximo de CPUs: {multiprocessing.cpu_count()}).")
             continue

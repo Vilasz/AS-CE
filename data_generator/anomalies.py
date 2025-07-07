@@ -30,10 +30,9 @@ def create_pressure_anomaly(value: float) -> float:
     Creates a significant pressure anomaly by deviating largely from the
     standard atmospheric pressure range.
     """
-    # A large deviation from the standard ~1013 hPa
+    # A large deviation from the standard
     return round(value + random.choice([-1, 1]) * random.uniform(30, 50), 2)
 
-# A dictionary to easily call the correct function
 ANOMALY_FUNCTIONS = {
     "temperature": create_temperature_anomaly,
     "humidity": create_humidity_anomaly,

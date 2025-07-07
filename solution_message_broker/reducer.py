@@ -1,15 +1,12 @@
-# solution_message_broker/reducer.py
 import pika
 import json
 import os
 import sys
 from collections import defaultdict
 
-# Adiciona o diretório raiz para importar o 'core'
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from core.metrics import calculate_moving_averages, count_multi_sensor_anomaly_periods
 
-# NOVO: Define um caminho de arquivo para o resultado das anomalias
 ANOMALY_OUTPUT_FILE = os.path.join(os.path.dirname(__file__), '..', 'data', 'broker_found_anomalies.json')
 
 def main():
@@ -39,7 +36,6 @@ def main():
 
         print(f"[*] Reducer {reducer_id}: Dados recebidos. Iniciando agregação...")
         
-        # --- LÓGICA DE AGREGAÇÃO FINAL ---
         final_report = { "station_metrics": {}, "region_metrics": {} }
         all_found_anomalies = []
 
@@ -63,7 +59,6 @@ def main():
         with open('data/final_report_broker.json', 'w') as f:
             json.dump(final_report, f, indent=4)
 
-        # NOVO: Salva a lista de anomalias encontradas para comunicação com o processor
         # Apenas os campos necessários para a verificação de corretude
         anomaly_list_for_processor = [
             {"timestamp": anom['timestamp'], "station_id": anom['station_id'], "sensor": anom['anomaly_sensor']}

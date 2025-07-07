@@ -1,10 +1,8 @@
-# solution_spark/processor.py
 import time
 from pyspark.sql import SparkSession, Window
 from pyspark.sql.functions import col, when, count, avg, unix_timestamp, to_timestamp
 import os
 
-# NOVO: A função agora retorna uma tupla: (float, list)
 def run_spark_analysis(data_path: str, num_workers: int) -> tuple[float, list]:
     """
     Executa a análise completa de dados meteorológicos usando Apache Spark.
@@ -22,7 +20,6 @@ def run_spark_analysis(data_path: str, num_workers: int) -> tuple[float, list]:
     spark.sparkContext.setLogLevel("ERROR")
 
     # 2. Carregar os dados
-    # É importante garantir que o timestamp seja lido corretamente
     df = spark.read.csv(data_path, header=True, inferSchema=False) \
         .withColumn("timestamp", to_timestamp(col("timestamp"))) \
         .withColumn("temperature", col("temperature").cast("float")) \
@@ -46,10 +43,8 @@ def run_spark_analysis(data_path: str, num_workers: int) -> tuple[float, list]:
             .otherwise(None)
         )
     
-    # OTIMIZAÇÃO: Coloca o DataFrame em cache, pois será usado várias vezes
     df_with_anomalies.cache()
 
-    # 4. Definir todas as computações
     
     # Métrica 1: Relatório de anomalias por estação
     station_anomaly_report = df_with_anomalies.groupBy("station_id") \
@@ -72,22 +67,15 @@ def run_spark_analysis(data_path: str, num_workers: int) -> tuple[float, list]:
         .filter(col("distinct_anomaly_sensors_in_window") > 1) \
         .groupBy("station_id") \
         .count()
-
-    # NOVO: DataFrame para coletar as anomalias detectadas para verificação de corretude
     found_anomalies_df = df_with_anomalies \
         .filter(col("is_anomaly") == 1) \
         .select("timestamp", "station_id", "anomaly_sensor")
 
-    # 5. Forçar a execução (ações) e coletar os resultados
-    
-    # Executa as coletas das métricas (necessárias para o relatório, mas não para o benchmark de tempo)
     station_anomaly_report.collect()
     region_moving_avg_report.collect()
     multi_anomaly_periods.collect()
     
-    # NOVO: Coleta as anomalias encontradas e as converte para uma lista de dicionários
     found_anomalies_rows = found_anomalies_df.collect()
-    # Converte o timestamp para o formato ISO string para ser compatível com o JSON
     found_anomalies_list = [
         {
             "timestamp": row.timestamp.isoformat(), 
@@ -97,22 +85,17 @@ def run_spark_analysis(data_path: str, num_workers: int) -> tuple[float, list]:
         for row in found_anomalies_rows
     ]
 
-    # Libera o cache
     df_with_anomalies.unpersist()
     
-    # 6. Encerrar a sessão e o tempo
     spark.stop()
     end_time = time.perf_counter()
     
-    # NOVO: Retorna a tupla com o tempo e a lista de anomalias
     return (end_time - start_time), found_anomalies_list
 
 if __name__ == '__main__':
-    # Bloco para teste direto do script
     DATA_FILE = os.path.join(os.path.dirname(__file__), '..', 'data', 'synthetic_data.csv')
     print("Iniciando teste direto do processador Spark com 4 workers...")
     
-    # NOVO: Atualiza a chamada para receber os dois valores retornados
     execution_time, anomalies_found = run_spark_analysis(DATA_FILE, num_workers=4)
     
     print(f"Tempo de execução do teste direto: {execution_time:.4f} segundos.")

@@ -1,4 +1,3 @@
-# solution_message_broker/processor.py
 import pika
 import time
 import subprocess
@@ -13,7 +12,6 @@ def run_analysis(data_path: str, num_workers: int) -> tuple[float, list]:
     """
     print("\n--- Iniciando Análise com Message Broker (Otimizado) ---")
     
-    # 1. Setup
     try:
         connection = pika.BlockingConnection(pika.ConnectionParameters('rabbitmq'))
         channel = connection.channel()
@@ -26,25 +24,20 @@ def run_analysis(data_path: str, num_workers: int) -> tuple[float, list]:
         print(f"Erro de conexão no Setup: {e}")
         return -1.0, []
 
-    # 2. Producer
     total_tasks = run_producer(data_path)
     if total_tasks <= 0: return -1.0, []
     
     start_time = time.perf_counter()
 
-    # 3. Inicia os Workers Agregadores
     workers = []
     for _ in range(num_workers):
         proc = subprocess.Popen(['python', '-m', 'solution_message_broker.worker'])
         workers.append(proc)
     
-    # Aguarda todos os workers finalizarem
     for proc in workers:
         proc.wait(timeout=300)
 
-    # 4. Coleta e Agregação Final dos Resultados
     all_found_anomalies = []
-    # (A agregação das métricas finais não é necessária para o benchmark, mas seria feita aqui)
     
     connection = pika.BlockingConnection(pika.ConnectionParameters('rabbitmq'))
     channel = connection.channel()

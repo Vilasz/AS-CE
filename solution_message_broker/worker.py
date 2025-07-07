@@ -1,4 +1,3 @@
-# solution_message_broker/worker.py
 import pika
 import json
 import os
@@ -32,13 +31,12 @@ def main():
                 event['pressure'] = float(event['pressure'])
                 station_events[event['station_id']].append(event)
             except (ValueError, KeyError):
-                pass # Ignora eventos malformados
+                pass 
             finally:
                 channel.basic_ack(delivery_tag=method_frame.delivery_tag)
         
         print(f"[*] Worker {worker_id}: Mensagens consumidas. Agregando localmente...")
         
-        # --- Lógica de Agregação Local ---
         worker_station_report = {}
         worker_region_report = defaultdict(list)
         worker_found_anomalies = []
@@ -66,7 +64,6 @@ def main():
                 "multi_sensor_periods": count_multi_sensor_anomaly_periods(events)
             }
         
-        # Publica UM ÚNICO resultado agregado
         final_result = {
             "station_metrics": worker_station_report,
             "found_anomalies": worker_found_anomalies

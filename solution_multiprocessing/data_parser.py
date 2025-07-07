@@ -47,7 +47,6 @@ def load_and_group_by_station(data_path: str) -> dict[int, list[dict]]:
             reader = csv.DictReader(csvfile)
             for row in reader:
                 # Manually convert data types from string to numeric
-                # This is a critical step that pandas did automatically
                 try:
                     event = {
                         'timestamp': row['timestamp'],
@@ -86,7 +85,6 @@ def load_and_group_by_region(data_path: str) -> dict[str, list[dict]]:
     for event in all_events:
         region_groups[event['region']].append(event)
         
-    # Ordena os eventos de cada região pelo timestamp
     for region in region_groups:
         region_groups[region].sort(key=lambda x: x['timestamp'])
         
