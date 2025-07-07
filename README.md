@@ -1,4 +1,4 @@
-# AS - CE
+# AS - CE (João Felipe Vilas Boas)
 
 Este projeto foi desenvolvido como parte do Trabalho da disciplina de Computação Escalável da EMAP/FGV (Avaliação Substitutiva). O objetivo é realizar um experimento prático para comparar o desempenho e a corretude de três modelos de paralelismo distintos: Multiprocessamento local, Message Broker com workers e Apache Spark. 
 
