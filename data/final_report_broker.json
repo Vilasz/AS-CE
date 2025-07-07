@@ -1,0 +1,41 @@
+{
+    "station_metrics": {
+        "12": {
+            "anomaly_percentage": 0.0,
+            "multi_sensor_periods": 0
+        },
+        "20": {
+            "anomaly_percentage": 0.0,
+            "multi_sensor_periods": 0
+        },
+        "9": {
+            "anomaly_percentage": 0.0,
+            "multi_sensor_periods": 0
+        },
+        "10": {
+            "anomaly_percentage": 0.0,
+            "multi_sensor_periods": 0
+        },
+        "14": {
+            "anomaly_percentage": 0.0,
+            "multi_sensor_periods": 0
+        }
+    },
+    "region_metrics": {
+        "Pimenta das Pedras": {
+            "temperature": 0,
+            "humidity": 0,
+            "pressure": 0
+        },
+        "Cavalcanti do Amparo": {
+            "temperature": 0,
+            "humidity": 0,
+            "pressure": 0
+        },
+        "Rezende": {
+            "temperature": 0,
+            "humidity": 0,
+            "pressure": 0
+        }
+    }
+}

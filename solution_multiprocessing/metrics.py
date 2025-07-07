@@ -6,18 +6,17 @@ def is_anomalous(event: dict) -> tuple[bool, str | None]:
     Checks if a given event contains an anomalous sensor reading.
     Returns a tuple: (is_anomaly: bool, anomalous_sensor: str | None)
     """
-    # These rules mirror the generation logic in anomalies.py
-    if not (5.0 < event['temperature'] < 45.0):
+    # Temperature anomaly: < -10.0 or > 45.0 (matches generator)
+    if event['temperature'] < -10.0 or event['temperature'] > 45.0:
         return (True, 'temperature')
-    
-    if not (0.0 < event['humidity'] < 100.0):
+    # Humidity anomaly: < 0.0 or > 100.0 (matches generator)
+    if event['humidity'] < 0.0 or event['humidity'] > 100.0:
         return (True, 'humidity')
-    
-    # A simple check for significant pressure deviation.
-    # We can define a "normal" range, e.g., 980-1040 hPa.
-    if not (980.0 < event['pressure'] < 1040.0):
+    # Pressure anomaly: deviation of at least 30 from the value (generator adds/subtracts 30-50)
+    # We'll consider normal pressure to be 980-1040, but generator can create values outside by at least 30
+    # So, if pressure < 980-30=950 or > 1040+30=1070, it's definitely an anomaly
+    if event['pressure'] < 950.0 or event['pressure'] > 1070.0:
         return (True, 'pressure')
-        
     return (False, None)
 
 

@@ -9,7 +9,14 @@ services:
       - "15672:15672" # Porta para a interface de gerenciamento web
     networks:
       - app-network
-  # ... (o serviço do rabbitmq continua aqui) ...
+
+  redis:
+    image: redis:7-alpine
+    container_name: 'redis'
+    ports:
+      - "6379:6379"
+    networks:
+      - app-network
 
   spark-master:
     image: bitnami/spark:3.5
@@ -37,6 +44,21 @@ services:
       - ./solution_spark:/opt/bitnami/spark/apps
     networks:
       - app-network
+
+  dashboard:
+    build: .
+    container_name: dashboard
+    volumes:
+      - .:/app # Mapeia todo o projeto para dentro do container
+    ports:
+      - "8501:8501" # Porta padrão do Streamlit
+    networks:
+      - app-network
+    depends_on:
+      - rabbitmq
+      - spark-master
+    command: python -m streamlit run dashboard/app.py --server.port 8501 --server.address 0.0.0.0
+
 
 networks:
   app-network:

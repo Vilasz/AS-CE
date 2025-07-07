@@ -2,75 +2,85 @@
 import pika
 import json
 import os
+import sys
 from collections import defaultdict
-from core.metrics import calculate_moving_averages, count_multi_sensor_anomaly_periods, is_anomalous
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from core.metrics import is_anomalous, calculate_moving_averages, count_multi_sensor_anomaly_periods
 
 def main():
-    connection = pika.BlockingConnection(pika.ConnectionParameters('localhost'))
-    channel = connection.channel()
-
-    channel.queue_declare(queue='task_queue', durable=True)
-    channel.queue_declare(queue='result_queue', durable=True)
-    
     worker_id = os.getpid()
-    print(f' [*] Worker (Aggregator) {worker_id} aguardando por mensagens.')
-
-    # Estruturas de dados em memória para agregação local
-    station_events = defaultdict(list)
-    region_events = defaultdict(list)
-    
-    # Consome todas as mensagens disponíveis na fila
-    for method_frame, properties, body in channel.consume('task_queue', inactivity_timeout=1):
-        if method_frame is None: # Fila vazia, encerra o consumo
-            break
-
-        event = json.loads(body)
-        try:
-            event['temperature'] = float(event['temperature'])
-            event['humidity'] = float(event['humidity'])
-            event['pressure'] = float(event['pressure'])
-            event['station_id'] = int(event['station_id'])
-        except (ValueError, KeyError):
-            channel.basic_ack(delivery_tag=method_frame.delivery_tag)
-            continue
+    print(f"[*] Aggregating Worker {worker_id}: Iniciando.")
+    try:
+        connection = pika.BlockingConnection(pika.ConnectionParameters('rabbitmq'))
+        channel = connection.channel()
+        channel.queue_declare(queue='task_queue', durable=True)
+        channel.queue_declare(queue='result_queue', durable=True)
         
-        # Agrega eventos em memória
-        station_events[event['station_id']].append(event)
-        region_events[event['region']].append(event)
-        channel.basic_ack(delivery_tag=method_frame.delivery_tag)
-
-    print(f" [+] Worker {worker_id} processou suas mensagens. Calculando agregados...")
-
-    # Agora, o worker calcula as métricas para os dados que ele processou
-    worker_final_result = {
-        "station_metrics": defaultdict(dict),
-        "region_metrics": defaultdict(dict)
-    }
-
-    for station_id, events in station_events.items():
-        events.sort(key=lambda x: x['timestamp'])
-        anomaly_found = [is_anomalous(e)[0] for e in events]
+        station_events = defaultdict(list)
         
-        worker_final_result["station_metrics"][station_id] = {
-            "total_events": len(events),
-            "anomaly_events": sum(anomaly_found),
-            "multi_sensor_periods": count_multi_sensor_anomaly_periods(events)
+        # Consome o máximo de mensagens que conseguir da fila
+        for method_frame, properties, body in channel.consume('task_queue', inactivity_timeout=3):
+            if method_frame is None: break
+            
+            event = json.loads(body)
+            try:
+                # Converte tipos de dados
+                event['station_id'] = int(event['station_id'])
+                event['temperature'] = float(event['temperature'])
+                event['humidity'] = float(event['humidity'])
+                event['pressure'] = float(event['pressure'])
+                station_events[event['station_id']].append(event)
+            except (ValueError, KeyError):
+                pass # Ignora eventos malformados
+            finally:
+                channel.basic_ack(delivery_tag=method_frame.delivery_tag)
+        
+        print(f"[*] Worker {worker_id}: Mensagens consumidas. Agregando localmente...")
+        
+        # --- Lógica de Agregação Local ---
+        worker_station_report = {}
+        worker_region_report = defaultdict(list)
+        worker_found_anomalies = []
+
+        for station_id, events in station_events.items():
+            events.sort(key=lambda x: x['timestamp'])
+            region_name = events[0]['region']
+            anomalies_in_station = []
+
+            for event in events:
+                anomaly_found, sensor = is_anomalous(event)
+                if anomaly_found:
+                    anomalies_in_station.append(event)
+                    worker_found_anomalies.append({
+                        "timestamp": event['timestamp'],
+                        "station_id": event['station_id'],
+                        "sensor": sensor
+                    })
+                else:
+                    worker_region_report[region_name].append(event)
+            
+            worker_station_report[station_id] = {
+                "total_events": len(events),
+                "anomaly_events": len(anomalies_in_station),
+                "multi_sensor_periods": count_multi_sensor_anomaly_periods(events)
+            }
+        
+        # Publica UM ÚNICO resultado agregado
+        final_result = {
+            "station_metrics": worker_station_report,
+            "found_anomalies": worker_found_anomalies
         }
-
-    for region, events in region_events.items():
-        events.sort(key=lambda x: x['timestamp'])
-        worker_final_result["region_metrics"][region] = calculate_moving_averages(events, window_size=50)
-
-    # Envia UM ÚNICO resultado agregado para a fila de resultados
-    channel.basic_publish(
-        exchange='',
-        routing_key='result_queue',
-        body=json.dumps(worker_final_result)
-    )
-
-    connection.close()
-    print(f" [+] Worker {worker_id} enviou seu resultado agregado.")
-
+        channel.basic_publish(
+            exchange='',
+            routing_key='result_queue',
+            body=json.dumps(final_result)
+        )
+        
+        connection.close()
+        print(f"[*] Worker {worker_id}: Resultado agregado enviado. Encerrando.")
+    except Exception as e:
+        print(f"Worker {worker_id} Error: {e}")
 
 if __name__ == '__main__':
     main()
